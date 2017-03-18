@@ -96,20 +96,6 @@
   src: local("Droid Serif Bold"),local(DroidSerif-Bold),url(//fonts.gstatic.com/s/droidserif/v6/QQt14e8dY39u-eYBZmppwbFt29aCHKT7otDW9l62Aag.eot?#) format("eot"),url(//fonts.gstatic.com/s/droidserif/v6/QQt14e8dY39u-eYBZmppwTqR_3kx9_hJXbbyU8S6IN0.woff) format("woff2"),url(//fonts.gstatic.com/s/droidserif/v6/QQt14e8dY39u-eYBZmppwTqR_3kx9_hJXbbyU8S6IN0.woff) format("woff");
 }
 
-@font-face {
-  font-family: 'OpenSans Semibold';
-  src: url("../fonts/OpenSans/open-sans-semibold.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Borjomi Regular';
-  src: url("../fonts/Borjomi/Borjo.otf");
-  font-weight: normal;
-  font-style: normal;
-}
-
 article,
 aside,
 details,
@@ -268,6 +254,15 @@ h2 {
   padding-top: 30px;
 }
 
+.burger {
+  display: none !important;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  cursor: pointer;
+  color: #f0f8ff;
+}
+
 .nav-1 {
   width: 40%;
   display: -ms-flexbox;
@@ -365,7 +360,7 @@ main {
 .eyllow {
   background: #ffd700;
   height: 70px;
-  width: 80px;
+  width: 90px;
   margin-left: 15px;
   color: #f0f8ff;
   display: -ms-flexbox;
@@ -605,10 +600,15 @@ main {
 .about_church-wrapper {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .about_church__pic {
   height: 500px;
+  -ms-flex: 1px;
+  flex: 1;
+  text-align: center;
 }
 
 .about_church__pic img {
@@ -617,6 +617,11 @@ main {
 
 .about_church__text {
   margin-left: 20px;
+  -ms-flex: 1px;
+  flex: 1;
+  -ms-flex-preferred-size: 400px;
+  flex-basis: 400px;
+  text-align: left;
 }
 
 .about_church__text .welcome {
@@ -635,6 +640,8 @@ main {
   flex-wrap: wrap;
   margin-left: -10px;
   margin-right: -10px;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .cool__box {
@@ -667,8 +674,127 @@ main {
 }
 
 footer {
-  height: 300px;
+  height: 400px;
   background: #333;
+  color: #ccc;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+footer span {
+  font: 15px "Droid Serif";
+}
+
+footer h3 {
+  font: 22px "Droid Serif";
+  color: #fff;
+}
+
+.footer-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  width: 100%;
+}
+
+.footer-col {
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-right: 10px;
+  word-wrap: break-word;
+  width: calc(33.333333333333336% - 20px);
+}
+
+.footer-logo img {
+  width: 120px;
+  margin: 10px;
+  float: left;
+}
+
+.footer-links {
+  margin-top: 30px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-social {
+  -ms-flex: 1px;
+  flex: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-phone {
+  -ms-flex: 1px;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.footer-phone span {
+  display: block;
+  font-size: 16px;
+}
+
+.raspis {
+  padding-left: 20px;
+}
+
+.raspis span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.grey-line {
+  width: 100%;
+  border-bottom: 1px solid #555;
+  margin: 20px 0;
+}
+
+.footer-rassilka {
+  text-align: center;
+}
+
+.footer-rassilka form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.footer-rassilka input {
+  background: #2a2a2a;
+  height: 30px;
+  width: 280px;
+  border: 1px solid #5b5b5b;
+  padding-left: 10px;
+}
+
+.rassilka-button {
+  font: 12px "Open Sans";
+  background: #ffca00;
+  width: 119px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 2px;
+  color: #f0f8ff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (min-width:480px) {
@@ -723,6 +849,12 @@ footer {
   }
 }
 
+@media (max-width:900px) {
+  .about_church__text {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 780px) {
   .wrapper {
     padding-left: 15px;
@@ -738,6 +870,26 @@ footer {
   .wrapper {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .cool__box {
+    width: calc(75% - 20px);
+  }
+}
+
+@media (max-width: 560px) {
+  .header-nav {
+    display: none;
+  }
+
+  .nav-1,
+  .nav-2 {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .burger {
+    display: block !important;
   }
 }
 
