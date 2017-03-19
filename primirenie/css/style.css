@@ -285,7 +285,7 @@ h2 {
 }
 
 main {
-  height: 100%;
+  min-height: 100%;
 }
 
 .news {
@@ -335,7 +335,7 @@ main {
   height: 450px;
   background: #000;
   position: relative;
-  background: url('../img/news/bitmap.png');
+  background: url('../img/ins/bitmap.png');
   background-size: cover;
   margin-bottom: 20px;
   -ms-flex-preferred-size: 350px;
@@ -402,22 +402,6 @@ main {
   padding: 20px 0;
 }
 
-.verse-text {
-  margin-left: 50px;
-  color: #f0f8ff;
-}
-
-.verse-bible {
-  font: 14px "Droid Serif";
-  margin-bottom: 50px;
-  width: 80%;
-}
-
-.verse-who {
-  font: 10px "Open Sans";
-  text-transform: uppercase;
-}
-
 .line_with_verse__container {
   display: -ms-flexbox;
   display: flex;
@@ -426,6 +410,20 @@ main {
   -ms-flex-align: center;
   align-items: center;
   min-height: 350px;
+}
+
+.line_with_verse__container .raspis {
+  margin-left: 100px;
+}
+
+.line_with_verse__container h3 {
+  font: 22px "Droid Serif";
+  color: #efc029;
+}
+
+.line_with_verse__container span {
+  font: 20px "Droid Serif";
+  color: #fefefe;
 }
 
 .gallery {
@@ -606,6 +604,7 @@ main {
 
 .about_church__pic {
   height: 500px;
+  width: 100%;
   -ms-flex: 1px;
   flex: 1;
   text-align: center;
@@ -613,6 +612,7 @@ main {
 
 .about_church__pic img {
   height: 100%;
+  width: auto;
 }
 
 .about_church__text {
@@ -674,7 +674,7 @@ main {
 }
 
 footer {
-  height: 400px;
+  min-height: 400px;
   background: #333;
   color: #ccc;
   display: -ms-flexbox;
@@ -700,6 +700,8 @@ footer h3 {
   margin-left: -10px;
   margin-right: -10px;
   width: 100%;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .footer-col {
@@ -708,6 +710,7 @@ footer h3 {
   margin-right: 10px;
   word-wrap: break-word;
   width: calc(33.333333333333336% - 20px);
+  margin-top: 20px;
 }
 
 .footer-logo img {
@@ -797,6 +800,141 @@ footer h3 {
   align-items: center;
 }
 
+.copirait {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.header-ins__nav {
+  height: 70px;
+  background: #fff;
+}
+
+.header-prop__container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo-ins {
+  font: 700 26px "Open Sans";
+  text-transform: uppercase;
+}
+
+.nav-ins {
+  font: 600 16px "Open Sans";
+  color: #333;
+  -ms-flex-preferred-size: 700px;
+  flex-basis: 700px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-ins__pic {
+  height: 370px;
+  background: url('../img/propoved/header-prop.png');
+  background-size: cover;
+}
+
+.header-ins__h1 {
+  font: 400 60px "Droid Serif";
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main-prop {
+  background: #808080;
+  padding-top: 30px;
+}
+
+.propovedy-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.propovedy-categories {
+  width: 49%;
+}
+
+.propovedy-categories {
+  color: #f0f8ff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.propovedy-categories span {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.catedor {
+  height: 270px;
+  background: #fff;
+  margin-bottom: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.catedor img {
+  width: 285px;
+  height: 270px;
+}
+
+.catedor span {
+  font: 19px "Droid Serif";
+  margin: 0 10px;
+  color: #333;
+  text-align: center;
+}
+
+.propovedy-audio {
+  width: 49%;
+  margin-top: 54px;
+}
+
+.propovedy-audio {
+  width: 49%;
+}
+
+.audio-item {
+  height: 45px;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.play {
+  background: #e9e9e9;
+  width: 45px;
+  height: 100%;
+}
+
+.play-name {
+  font: 700 14px "Droid Serif";
+  color: #333;
+  margin-left: 20px;
+}
+
 @media (min-width:480px) {
   .span-1 {
     font-size: 40px;
@@ -813,20 +951,32 @@ footer h3 {
   .span-4 {
     font-size: 60px;
   }
-
-  .verse-bible {
-    font-size: 20px;
-  }
-
-  .verse-who {
-    font-size: 14px;
-  }
 }
 
 @media screen and (max-width: 1100px) {
   .wrapper {
     padding-left: 30px;
     padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .galler-cell {
+    margin-top: 10px;
+  }
+
+  .footer-col {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .footer-links {
+    min-width: 400px;
+    text-align: center;
   }
 }
 
@@ -847,6 +997,10 @@ footer h3 {
   .pastor {
     width: calc(41.66666666666667% - 20px);
   }
+
+  .footer-col {
+    width: calc(66.66666666666667% - 20px);
+  }
 }
 
 @media (max-width:900px) {
@@ -866,10 +1020,32 @@ footer h3 {
   }
 }
 
+@media (max-width: 680px) {
+  .line_with_verse__container {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 320px;
+  }
+
+  .line_with_verse__container .raspis {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
 @media screen and (max-width: 560px) {
   .wrapper {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .gallery__box-big {
+    height: 320px;
+  }
+
+  .gallery__box-quarter {
+    width: 100%;
+    height: 320px;
   }
 
   .cool__box {
@@ -893,27 +1069,6 @@ footer h3 {
   }
 }
 
-@media (max-width: 480px) {
-  .line_with_verse__container {
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-height: 320px;
-  }
-
-  .verse-text {
-    margin: 0;
-  }
-
-  .verse-bible {
-    margin: 20px auto;
-    text-align: justify;
-  }
-
-  .verse-who {
-    text-align: center;
-  }
-}
-
 @media (min-width:480px) and (max-width:1280px) {
   .span-1 {
     font-size: calc(20px + (40 - 20) * ( (100vw - 480px) / ( 1280 - 480)));
@@ -929,13 +1084,5 @@ footer h3 {
 
   .span-4 {
     font-size: calc(25px + (60 - 25) * ( (100vw - 480px) / ( 1280 - 480)));
-  }
-
-  .verse-bible {
-    font-size: calc(14px + (20 - 14) * ( (100vw - 480px) / ( 1280 - 480)));
-  }
-
-  .verse-who {
-    font-size: calc(10px + (14 - 10) * ( (100vw - 480px) / ( 1280 - 480)));
   }
 }
