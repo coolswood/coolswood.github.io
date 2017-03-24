@@ -1,4 +1,4 @@
-if(window.screen.width<600){
+if(document.body.clientWidth<600){
    
    var gallery = document.querySelector('.gallery-wrapper');
    gallery.className += ' owl-carousel owl-theme';
