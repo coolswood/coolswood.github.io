@@ -333,19 +333,19 @@ main {
 }
 
 .new {
-  height: 450px;
+  height: 350px;
   background: #000;
   position: relative;
   background: url('../img/ins/bitmap.png');
   background-size: cover;
   margin-bottom: 20px;
-  -ms-flex-preferred-size: 350px;
-  flex-basis: 350px;
+  -ms-flex-preferred-size: 300px;
+  flex-basis: 300px;
   box-sizing: border-box;
   margin-left: 5px;
   margin-right: 5px;
   word-wrap: break-word;
-  width: calc(33.333333333333336% - 10px);
+  width: calc(25% - 10px);
 }
 
 .new__inform {
@@ -428,7 +428,6 @@ main {
 }
 
 .gallery {
-  min-height: 100vh;
   padding: 50px 0;
   background: #f4f4f4;
 }
@@ -440,6 +439,8 @@ main {
   flex-wrap: wrap;
   margin-left: -5px;
   margin-right: -5px;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .gal {
@@ -720,6 +721,12 @@ footer h3 {
   flex: 1;
   min-width: 200px;
   margin-left: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .footer-phone span {
@@ -766,12 +773,13 @@ footer h3 {
 
 .rassilka-button {
   font: 12px "Open Sans";
-  background: #ffca00;
+  background: #e8b801;
   width: 119px;
   height: 30px;
   margin-top: 20px;
   border-radius: 2px;
-  color: #f0f8ff;
+  color: #fff;
+  text-shadow: 1px 1px 1px 1px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -783,6 +791,7 @@ footer h3 {
 .copirait {
   margin-top: 30px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .header-ins__nav {
@@ -1011,6 +1020,10 @@ footer h3 {
     width: calc(66.66666666666667% - 10px);
   }
 
+  .gal {
+    width: calc(41.66666666666667% - 10px);
+  }
+
   .pastor {
     width: calc(41.66666666666667% - 10px);
   }
@@ -1030,6 +1043,10 @@ footer h3 {
   .wrapper {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .gal {
+    width: calc(66.66666666666667% - 10px);
   }
 
   .pastor {
@@ -1054,6 +1071,10 @@ footer h3 {
   .wrapper {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .gal {
+    width: calc(100% - 10px);
   }
 
   .cool__box {
