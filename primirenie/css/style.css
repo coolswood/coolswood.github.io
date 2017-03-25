@@ -342,19 +342,66 @@ main {
 
 .new {
   height: 350px;
-  background: #000;
   position: relative;
-  background: url('../img/ins/bitmap.png');
-  background-size: cover;
   margin-bottom: 20px;
   -ms-flex-preferred-size: 300px;
   flex-basis: 300px;
+  perspective: 1000px;
   box-sizing: border-box;
   margin-left: 5px;
   margin-right: 5px;
   word-wrap: break-word;
   width: calc(25% - 10px);
   margin: 5px 10px;
+  cursor: pointer;
+}
+
+.one-side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.other-side {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform: rotateY(180deg);
+  border: 4px double #ccc;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.new-fon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.cross {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.rotation {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #fff;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  will-change: transform;
+}
+
+.rot {
+  transform: rotateY(180deg);
 }
 
 .new__inform {
@@ -439,8 +486,8 @@ main {
   flex-wrap: wrap;
   margin-left: -5px;
   margin-right: -5px;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 20px 0;
 }
 
@@ -456,6 +503,7 @@ main {
   background: url("../img/news/bitmap.png");
   background-size: cover;
   position: relative;
+  margin: 0 20px;
   margin-top: 10px;
 }
 
