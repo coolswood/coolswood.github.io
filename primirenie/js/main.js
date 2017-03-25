@@ -57,3 +57,11 @@ $('.owl-carousel-pastor').owlCarousel({
       return false;
     });
   });
+
+// Скролл
+
+$('.rotation').click(function(){
+   
+   $(this).toggleClass('rot');
+   
+});
