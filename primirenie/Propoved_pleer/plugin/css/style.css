@@ -1,6 +1,8 @@
-
-
 .ttw-music-player {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%);
     width: 600px;
     margin: 60px auto;
     font-family: 'Lato', arial, sans-serif;
@@ -8,6 +10,9 @@
 
 .ttw-music-player .player {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /** Album Cover **/
@@ -63,11 +68,10 @@
 
 /** Track Info **/
 .ttw-music-player .track-info {
-    width: 215px;
-    margin: 8px 0 0 30px;
+    margin: 8px 0;
     float: left;
     font-size: 12px;
-    margin-left: 100px;
+    text-align: center;
 }
 
 .ttw-music-player .track-info p {
@@ -79,17 +83,17 @@
     text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
     font-family: 'Lato Bold', arial, sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .ttw-music-player .artist-outer {
-    color: #727272;
+    color: #efefef;
     font-family: 'Lato Italic', arial, sans-serif;
     font-style: italic;
 }
 
 .ttw-music-player .artist {
-    color: #999;
+    color: #efefef;
     font-family: 'Lato', arial, sans-serif;
     margin-left: 4px;
 }
@@ -124,7 +128,6 @@
     -webkit-border-radius: 6px;
     background: transparent url(../images/player-bg.png) repeat 0 0 scroll;
     float: left;
-    margin: 12px 0px 0 80px;
 }
 
 .ttw-music-player .player-controls .main {
@@ -223,7 +226,7 @@
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     background: transparent url(../images/tracklist-bg.png) repeat 0 0 scroll;
-    color: #999;
+    color: #d6d6d6;
     font-size: 12px;
 }
 
@@ -239,6 +242,8 @@
     padding: 10px 0 10px 0;
     list-style-position: inside;
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .ttw-music-player .tracklist li:hover {
@@ -300,9 +305,6 @@
     width: 62px;
     height: 16px;
     display: inline-block;
-    position: absolute;
-    top: 9px;
-    right: 0;
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -312,7 +314,7 @@
     text-align: center;
     line-height: 16px;
     text-shadow: none;
-    color: #999;
+    color: #d6d6d6;
     text-decoration: none;
 }
 
