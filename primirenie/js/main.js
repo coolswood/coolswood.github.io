@@ -48,3 +48,12 @@ $('.owl-carousel-pastor').owlCarousel({
 //}
 
 // Скролл
+
+  $(document).ready(function() {
+    $(".item-header").click(function () {
+      var elementClick = $(this).attr("href");
+      var destination = $(elementClick).offset().top - 10;
+      $('html,body').animate( { scrollTop: destination }, 1100 );
+      return false;
+    });
+  });
