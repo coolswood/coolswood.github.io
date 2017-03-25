@@ -46,3 +46,5 @@ $('.owl-carousel-pastor').owlCarousel({
 //   prop[i].style.height='150px';
 //
 //}
+
+// Скролл
