@@ -264,6 +264,15 @@ h2 {
   color: #f0f8ff;
 }
 
+.burger-ins {
+  display: none !important;
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  cursor: pointer;
+  color: #000;
+}
+
 .nav-1 {
   width: 40%;
   display: -ms-flexbox;
@@ -382,6 +391,7 @@ main {
   position: absolute;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .cross {
@@ -501,11 +511,10 @@ main {
   height: 470px;
   -ms-flex-preferred-size: 370px;
   flex-basis: 370px;
-  background: url("../img/news/bitmap.png");
-  background-size: cover;
   position: relative;
   margin: 0 20px;
   margin-top: 10px;
+  background: rgba(0,0,0,0.33);
 }
 
 .pogertvovanie-card h3 {
@@ -518,6 +527,12 @@ main {
   left: 50%;
   margin-right: -50%;
   transform: translateX(-50%);
+}
+
+.pogertvovanie-card img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
 
 .pogertvovanie-card:hover .pogertvovanie-text,
@@ -539,7 +554,7 @@ main {
 
 .pogertvovanie-type {
   font: 400 79px "Droid Serif";
-  opacity: 0.2;
+  opacity: 0.3;
   color: #000;
   position: absolute;
   top: 10px;
@@ -955,6 +970,7 @@ footer h3 {
 
 .header-ins__nav {
   height: 70px;
+  padding-bottom: 10px;
   background: #fff;
 }
 
@@ -970,6 +986,8 @@ footer h3 {
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .logo-ins {
@@ -989,8 +1007,8 @@ footer h3 {
 .nav-ins {
   font: 600 16px "Open Sans";
   color: #333;
-  -ms-flex-preferred-size: 700px;
-  flex-basis: 700px;
+  -ms-flex-preferred-size: 850px;
+  flex-basis: 850px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
@@ -1012,7 +1030,7 @@ footer h3 {
 }
 
 .header-ins__h1 {
-  font: 400 55px "Droid Serif";
+  font: 400 40px "Droid Serif";
   color: #fff;
   text-transform: uppercase;
   display: -ms-flexbox;
@@ -1066,6 +1084,22 @@ footer h3 {
   margin: 0 10px;
   color: #333;
   text-align: center;
+}
+
+.propoved-text h3 {
+  font: 400 22px "Droid Serif";
+  color: #333;
+}
+
+.propoved-text span {
+  font: 400 17px "Myriad Pro";
+  color: #7d7d7d;
+}
+
+.propoved-text .grey-line {
+  width: 90%;
+  margin: 20px auto;
+  border-bottom: 1px solid #ddd;
 }
 
 .propovedy-audio {
@@ -1185,6 +1219,10 @@ footer h3 {
   .span-4 {
     font-size: 60px;
   }
+
+  .header-ins__h1 {
+    font-size: 55px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -1267,6 +1305,25 @@ footer h3 {
   }
 }
 
+@media (max-width: 750px) {
+  .burger-ins {
+    display: block !important;
+  }
+
+  .nav-ins {
+    display: none;
+  }
+
+  .header-prop__container {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .header-ins__pic {
+    height: 250px;
+  }
+}
+
 @media (max-width: 680px) {
   .line_with_verse__container {
     -ms-flex-direction: column;
@@ -1344,5 +1401,9 @@ footer h3 {
 
   .span-4 {
     font-size: calc(25px + (60 - 25) * ( (100vw - 480px) / ( 1280 - 480)));
+  }
+
+  .header-ins__h1 {
+    font-size: calc(40px + (55 - 40) * ( (100vw - 480px) / ( 1280 - 480)));
   }
 }

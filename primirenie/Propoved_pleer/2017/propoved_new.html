@@ -28,17 +28,17 @@
    </header>
    <main class="main-prop" style="position:relative">
           <script type="text/javascript">
-        $(document).ready(function(){
+
             var description = '';
 
-            $('body').ttwMusicPlayer(myPlaylist, {
+            $('.main-prop').ttwMusicPlayer(myPlaylist, {
                 autoPlay:false,
                 description:description,
                 jPlayer:{
                     swfPath:'../plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
                 }
             });
-        });
+
     </script>
    </main>
    <footer style= "position:absolut">

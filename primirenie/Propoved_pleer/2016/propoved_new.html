@@ -10,7 +10,6 @@
     <script type="text/javascript" src="../plugin/ttw-music-player.js"></script>
     <script type="text/javascript" src="js/myplaylist.js"></script>
     <link rel="stylesheet" href="../../css/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    
     </head>
   <body>
@@ -29,7 +28,7 @@
    </header>
    <main class="main-prop" style="position:relative">
           <script type="text/javascript">
-        $(document).ready(function(){
+
             var description = '';
 
             $('.main-prop').ttwMusicPlayer(myPlaylist, {
@@ -39,10 +38,10 @@
                     swfPath:'../plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
                 }
             });
-        });
+
     </script>
    </main>
-   <footer>
+   <footer style= "position:absolut">
       <div class="wrapper">
          <div class="footer-wrapper">
             <div class="footer-discrip footer-col">
