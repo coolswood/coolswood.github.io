@@ -1,10 +1,6 @@
 .ttw-music-player {
-    position: absolute;
-    top: 400px;
-    left: 50%;
-    transform: translate(-50%);
-    width: 600px;
-    margin: 60px auto;
+    max-width: 600px;
+    margin: 0 auto;
     font-family: 'Lato', arial, sans-serif;
 }
 
@@ -13,6 +9,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.duration {
+    
+    min-width: 70px;
+    
 }
 
 /** Album Cover **/
@@ -261,10 +263,37 @@
 
 
 .ttw-music-player .tracklist .title {
-    width: 400px;
+    flex-basis: 400px;
     display: inline-block;
     padding: 0 0 0 14px;
     cursor: pointer;
+}
+
+@media (max-width:560px) {
+    
+    .track {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50px;
+        text-align: center;
+        display: inline;
+        
+    }
+    
+    .duration {
+        
+        margin: 10px 0;
+        
+    }
+    
+    .ttw-music-player .tracklist li {
+        
+        padding: 10px 0 30px 0;
+        
+    }
+    
 }
 
 .ttw-music-player li:nth-child(1n + 10) .title{
