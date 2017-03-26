@@ -10,6 +10,7 @@
     <script type="text/javascript" src="../plugin/ttw-music-player.js"></script>
     <script type="text/javascript" src="js/myplaylist.js"></script>
     <link rel="stylesheet" href="../../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    
     </head>
   <body>
@@ -31,7 +32,7 @@
         $(document).ready(function(){
             var description = '';
 
-            $('body').ttwMusicPlayer(myPlaylist, {
+            $('.main-prop').ttwMusicPlayer(myPlaylist, {
                 autoPlay:false,
                 description:description,
                 jPlayer:{
