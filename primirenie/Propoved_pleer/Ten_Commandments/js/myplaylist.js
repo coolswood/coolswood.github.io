@@ -1,6 +1,6 @@
 
 var myPlaylist = [
-    
+
     {
         mp3:'mix/1.mp3',
         oga:'mix/1.ogg',
@@ -121,6 +121,6 @@ var myPlaylist = [
         duration:'18 мая 2008',
         cover:'mix/1.png'
     },
-	
+
 
 ];

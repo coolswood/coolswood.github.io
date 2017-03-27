@@ -61,7 +61,7 @@ $('.owl-carousel-pastor').owlCarousel({
 // Скролл
 
 $('.rotation').click(function(){
-   
+
    $(this).toggleClass('rot');
-   
+
 });

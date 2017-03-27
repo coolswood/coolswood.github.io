@@ -1,7 +1,7 @@
 
 var myPlaylist = [
-    
-    
+
+
     {
         mp3:'http://малые-группы.рф/mp3/20140202-DmitriySarbaev.mp3',
         oga:'mix/1.ogg',

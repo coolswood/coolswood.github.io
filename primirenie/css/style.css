@@ -174,7 +174,7 @@ h2 {
 .header {
   height: 100%;
   width: 100%;
-  background: url('../img/header.png');
+  background: url('../img/New-Religious-Wallpaper.jpg') center;
   background-size: cover;
   font-family: 'OpenSans Semibold';
 }
@@ -518,7 +518,7 @@ main {
 }
 
 .pogertvovanie-card h3 {
-  font: 16px "Open Sans";
+  font: 14px "Open Sans";
   color: #fff;
   letter-spacing: 3px;
   color: #f0f8ff;
@@ -553,7 +553,7 @@ main {
 }
 
 .pogertvovanie-type {
-  font: 400 79px "Droid Serif";
+  font: 400 60px "Droid Serif";
   opacity: 0.3;
   color: #000;
   position: absolute;
@@ -599,7 +599,7 @@ main {
 }
 
 .pogertvovanie-vers span {
-  font: 19px "Droid Serif";
+  font: 17px "Droid Serif";
   color: #fff;
   margin: 0;
   text-align: center;
@@ -1220,6 +1220,18 @@ footer h3 {
     font-size: 60px;
   }
 
+  .pogertvovanie-card h3 {
+    font-size: 16px;
+  }
+
+  .pogertvovanie-type {
+    font-size: 80px;
+  }
+
+  .pogertvovanie-vers span {
+    font-size: 19px;
+  }
+
   .header-ins__h1 {
     font-size: 55px;
   }
@@ -1377,6 +1389,10 @@ footer h3 {
 }
 
 @media (max-width:560px) {
+  .pogertvovanie-card h3 {
+    top: 35px;
+  }
+
   .about_church__pic {
     height: 300px;
   }
@@ -1401,6 +1417,18 @@ footer h3 {
 
   .span-4 {
     font-size: calc(25px + (60 - 25) * ( (100vw - 480px) / ( 1280 - 480)));
+  }
+
+  .pogertvovanie-card h3 {
+    font-size: calc(14px + (16 - 14) * ( (100vw - 480px) / ( 1280 - 480)));
+  }
+
+  .pogertvovanie-type {
+    font-size: calc(60px + (80 - 60) * ( (100vw - 480px) / ( 1280 - 480)));
+  }
+
+  .pogertvovanie-vers span {
+    font-size: calc(17px + (19 - 17) * ( (100vw - 480px) / ( 1280 - 480)));
   }
 
   .header-ins__h1 {

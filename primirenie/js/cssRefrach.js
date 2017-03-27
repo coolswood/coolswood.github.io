@@ -1,6 +1,6 @@
-/*	
+/*
  *	CSSrefresh v1.0.3
- *	
+ *
  *	Copyright (c) 2012 Fred Heusschen
  *	www.frebsite.nl
  *
@@ -46,7 +46,7 @@
 
 		array_filter: function( arr, func )
 		{
-			var retObj = {}; 
+			var retObj = {};
 			for ( var k in arr )
 			{
 				if ( func( arr[ k ] ) )
@@ -74,7 +74,7 @@
 			try
 			{
 				req.open( 'HEAD', url, false );
-				req.send( null ); 
+				req.send( null );
 				if ( req.readyState < 3 )
 				{
 					return false;
@@ -86,7 +86,7 @@
 					return value.toString().substring( 1 ) !== '';
 				});
 				headers = format ? {} : [];
-	
+
 				for ( i in tmp )
 				{
 					if ( format )
@@ -99,7 +99,7 @@
 						headers[ j++ ] = tmp[ i ];
 					}
 				}
-	
+
 				return headers;
 			}
 			catch ( err )
@@ -153,7 +153,7 @@
 			links = [];
 
 		for ( var a = 0, l = files.length; a < l; a++ )
-		{			
+		{
 			var elem = files[ a ],
 				rel = elem.rel;
 
@@ -179,7 +179,7 @@
 			wp = true;
 			break;
 		}
-	}		
+	}
 
 	if ( wp )
 	{

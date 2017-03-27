@@ -12,9 +12,9 @@
 }
 
 .duration {
-    
+
     min-width: 60px;
-    
+
 }
 
 /** Album Cover **/
@@ -269,30 +269,30 @@
 }
 
 @media (max-width:560px) {
-    
+
     .track {
-        
+
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 50px;
         text-align: center;
         display: inline;
-        
+
     }
-    
+
     .duration {
-        
+
         margin: 10px 0;
-        
+
     }
-    
+
     .ttw-music-player .tracklist li {
-        
+
         padding: 10px 0 30px 0;
-        
+
     }
-    
+
 }
 
 .ttw-music-player li:nth-child(1n + 10) .title{

@@ -1,7 +1,7 @@
 
 var myPlaylist = [
-    
-    
+
+
     {
         mp3:'http://малые-группы.рф/mp3/20121028-EdwardZaiko.mp3',
         oga:'mix/1.ogg',
@@ -453,5 +453,5 @@ var myPlaylist = [
         cover:'mix/1.png'
     },
 
-	
+
 ];
