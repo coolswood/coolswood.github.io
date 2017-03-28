@@ -4,6 +4,9 @@ if(document.body.clientWidth<600){
 
    var gallery = document.querySelector('.gallery-wrapper');
    gallery.className += ' owl-carousel owl-theme';
+   
+   var gallery = document.querySelector('.catedor-wrapper');
+   gallery.className += ' owl-carousel owl-theme';
 
 
    $('.owl-carousel').owlCarousel({
@@ -26,10 +29,10 @@ $('.owl-carousel-pastor').owlCarousel({
             items:1
         },
         600:{
-            items:2
+            items:3
         },
         1000:{
-            items:3
+            items:4
         }
     }
 });
@@ -59,6 +62,11 @@ $('.owl-carousel-pastor').owlCarousel({
   });
 
 // Скролл
+
+$(document).ready(function() {
+  $(".catedor-wrapper").customScroll();
+});
+
 
 $('.rotation').click(function(){
 
