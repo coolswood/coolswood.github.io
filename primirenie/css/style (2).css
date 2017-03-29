@@ -198,7 +198,6 @@ h2 {
   color: #f0f8ff;
   text-align: center;
   font-size: 27px;
-  text-shadow: 1px 1px rgba(0,0,0,0.7);
 }
 
 .header-textbox>* {
@@ -296,7 +295,7 @@ h2 {
 }
 
 main {
-  min-height: 70%;
+  min-height: 100%;
 }
 
 .news {
@@ -631,7 +630,6 @@ main {
   width: calc(25% - 10px);
   position: relative;
   margin-top: 10px;
-  height: 350px;
 }
 
 .gal img {
@@ -715,7 +713,7 @@ main {
   margin-left: 5px;
   margin-right: 5px;
   word-wrap: break-word;
-  width: calc(91.66666666666667% - 10px);
+  width: calc(66.66666666666667% - 10px);
   text-align: center;
 }
 
@@ -741,7 +739,7 @@ main {
 }
 
 .name {
-  font: 20px "Droid Serif";
+  font: 25px "Droid Serif";
   color: #333;
 }
 
@@ -919,10 +917,6 @@ footer h3 {
   margin-bottom: 5px;
 }
 
-.raspis .grey-line {
-  width: 80%;
-}
-
 .grey-line {
   width: 100%;
   border-bottom: 1px solid #555;
@@ -1050,7 +1044,7 @@ footer h3 {
 .main-prop {
   background: url('../img/propoved/prop-bg.png') center;
   background-size: cover;
-  padding: 50px 0;
+  padding-top: 30px;
 }
 
 .propovedy-container {
@@ -1066,12 +1060,12 @@ footer h3 {
   color: #f0f8ff;
   text-align: center;
   font-size: 30px;
-  min-width: 35%;
-  -ms-flex-preferred-size: 300px;
-  flex-basis: 300px;
+  min-width: 45%;
+  -ms-flex-preferred-size: 500px;
+  flex-basis: 500px;
 }
 
-.categor {
+.catedor {
   height: 180px;
   background: #fff;
   margin-bottom: 20px;
@@ -1081,22 +1075,15 @@ footer h3 {
   align-items: center;
 }
 
-.categor span {
+.catedor img {
+  height: 100%;
+}
+
+.catedor span {
   font: 19px "Droid Serif";
   margin: 0 10px;
   color: #333;
   text-align: center;
-}
-
-.categor:last-child {
-  margin-bottom: 0;
-}
-
-.categor-wrapper {
-  height: 590px;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding-right: 10px;
 }
 
 .propoved-text h3 {
@@ -1107,8 +1094,6 @@ footer h3 {
 .propoved-text span {
   font: 400 17px "Myriad Pro";
   color: #7d7d7d;
-  display: block;
-  padding: 0 20px;
 }
 
 .propoved-text .grey-line {
@@ -1118,12 +1103,9 @@ footer h3 {
 }
 
 .propovedy-audio {
-  color: #f0f8ff;
-  text-align: center;
-  font-size: 30px;
-  min-width: 35%;
-  -ms-flex-preferred-size: 300px;
-  flex-basis: 300px;
+  min-width: 49%;
+  -ms-flex-preferred-size: 500px;
+  flex-basis: 500px;
 }
 
 .audio-container {
@@ -1181,7 +1163,7 @@ footer h3 {
 }
 
 .prop-wrap {
-  font: 17px "Droid Serif";
+  font: 30px "Droid Serif";
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: start;
@@ -1193,7 +1175,7 @@ footer h3 {
 }
 
 .prop-wrap img {
-  width: 35px;
+  width: 40px;
   margin-right: 10px;
 }
 
@@ -1219,53 +1201,6 @@ footer h3 {
 
 .play-inform-wrap + .play-inform-wrap {
   margin-left: 20px;
-}
-
-.main-contacts {
-  padding: 50px 0;
-}
-
-.main-contacts h3 {
-  text-align: center;
-  padding-bottom: 10px;
-  margin-top: 15px;
-}
-
-.contacts-container {
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 30px;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.contacts-text {
-  margin-right: 20px;
-  min-width: 400px;
-  -ms-flex: 1px;
-  flex: 1;
-  text-align: justify;
-}
-
-.contacts-map {
-  -ms-flex: 1px;
-  flex: 1;
-  min-width: 600px;
-}
-
-.map-container {
-  position: relative;
-  height: 0;
-  padding-bottom: 70%;
-}
-
-.map-responce {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 @media (min-width:480px) {
@@ -1297,16 +1232,8 @@ footer h3 {
     font-size: 19px;
   }
 
-  .name {
-    font-size: 25px;
-  }
-
   .header-ins__h1 {
     font-size: 55px;
-  }
-
-  .prop-wrap {
-    font-size: 30px;
   }
 }
 
@@ -1360,6 +1287,10 @@ footer h3 {
     width: calc(41.66666666666667% - 10px);
   }
 
+  .pastor {
+    width: calc(83.33333333333334% - 10px);
+  }
+
   .footer-col {
     width: calc(66.66666666666667% - 10px);
   }
@@ -1368,10 +1299,6 @@ footer h3 {
 @media (max-width:900px) {
   .about_church__text {
     text-align: center;
-  }
-
-  .contacts-text {
-    margin-right: 0;
   }
 }
 
@@ -1383,6 +1310,10 @@ footer h3 {
 
   .gal {
     width: calc(66.66666666666667% - 10px);
+  }
+
+  .pastor {
+    width: calc(83.33333333333334% - 10px);
   }
 }
 
@@ -1405,16 +1336,6 @@ footer h3 {
   }
 }
 
-@media (max-width:700px) {
-  .main-contacts {
-    padding: 10px 0;
-  }
-
-  .contacts-container {
-    padding-bottom: 0;
-  }
-}
-
 @media (max-width: 680px) {
   .line_with_verse__container {
     -ms-flex-direction: column;
@@ -1425,20 +1346,6 @@ footer h3 {
   .line_with_verse__container .raspis {
     margin-left: 0;
     margin-top: 20px;
-  }
-}
-
-@media (max-width:560px) {
-  .pogertvovanie-card h3 {
-    top: 35px;
-  }
-
-  .about_church__pic {
-    height: 300px;
-  }
-
-  .raspis {
-    padding-left: 0;
   }
 }
 
@@ -1481,6 +1388,20 @@ footer h3 {
   }
 }
 
+@media (max-width:560px) {
+  .pogertvovanie-card h3 {
+    top: 35px;
+  }
+
+  .about_church__pic {
+    height: 300px;
+  }
+
+  .raspis {
+    padding-left: 0;
+  }
+}
+
 @media (min-width:480px) and (max-width:1280px) {
   .span-1 {
     font-size: calc(20px + (40 - 20) * ( (100vw - 480px) / ( 1280 - 480)));
@@ -1510,15 +1431,7 @@ footer h3 {
     font-size: calc(17px + (19 - 17) * ( (100vw - 480px) / ( 1280 - 480)));
   }
 
-  .name {
-    font-size: calc(20px + (25 - 20) * ( (100vw - 480px) / ( 1280 - 480)));
-  }
-
   .header-ins__h1 {
     font-size: calc(40px + (55 - 40) * ( (100vw - 480px) / ( 1280 - 480)));
-  }
-
-  .prop-wrap {
-    font-size: calc(17px + (30 - 17) * ( (100vw - 480px) / ( 1280 - 480)));
   }
 }

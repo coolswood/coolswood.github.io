@@ -1,11 +1,8 @@
 // Карусели на главной
 
-if(document.body.clientWidth<600){
+if(document.body.clientWidth<600 && document.querySelector('.gallery-wrapper')){
 
    var gallery = document.querySelector('.gallery-wrapper');
-   gallery.className += ' owl-carousel owl-theme';
-   
-   var gallery = document.querySelector('.catedor-wrapper');
    gallery.className += ' owl-carousel owl-theme';
 
 
@@ -21,7 +18,46 @@ if(document.body.clientWidth<600){
 
 };
 
+if(document.body.clientWidth<600 && document.querySelector('.categor-wrapper')){
+
+   var gallery = document.querySelectorAll('.categor-wrapper');
+   for(i=0; i<gallery.length; i++) {
+      
+      gallery[i].style.height = "225px";
+      gallery[i].className += ' owl-carousel owl-theme';
+      
+   }
+
+
+   $('.owl-carousel').owlCarousel({
+   loop:true,
+   margin:10,
+   responsive:{
+      0:{
+         items:1
+      }
+   }
+   });
+
+};
+
 $('.owl-carousel-pastor').owlCarousel({
+    loop:true,
+    margin:10,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+$('.owl-carousel-way').owlCarousel({
     loop:true,
     margin:10,
     responsive:{
@@ -64,7 +100,7 @@ $('.owl-carousel-pastor').owlCarousel({
 // Скролл
 
 $(document).ready(function() {
-  $(".catedor-wrapper").customScroll();
+  $(".categor-wrapper").customScroll();
 });
 
 
