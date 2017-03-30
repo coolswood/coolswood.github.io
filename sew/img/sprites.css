@@ -1,0 +1,28 @@
+.s-1, .s-2, .s-3, .s-4{
+	background: url(sprites.png) no-repeat;
+}
+
+.s-1{
+	background-position: -3px 0;
+	width: 400px;
+	height: 287px;
+}
+
+.s-2{
+	background-position: -404px 0;
+	width: 300px;
+	height: 224px;
+}
+
+.s-3{
+	background-position: -706px -1px ;
+	width: 300px;
+	height: 214px;
+}
+
+.s-4{
+	background-position: 0 -287px ;
+	width: 426px;
+	height: 329px;
+}
+
