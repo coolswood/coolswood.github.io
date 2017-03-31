@@ -22,10 +22,10 @@ if(document.body.clientWidth<600 && document.querySelector('.categor-wrapper')){
 
    var gallery = document.querySelectorAll('.categor-wrapper');
    for(i=0; i<gallery.length; i++) {
-      
+
       gallery[i].style.height = "225px";
       gallery[i].className += ' owl-carousel owl-theme';
-      
+
    }
 
 
@@ -108,4 +108,11 @@ $('.rotation').click(function(){
 
    $(this).toggleClass('rot');
 
+});
+
+$(document).ready(function() {
+   setTimeout(function() {
+  $(".header-textbox").css('opacity', '1');
+  $(".header-nav").css('opacity', '1');
+   }, 800);
 });

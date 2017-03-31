@@ -88,6 +88,7 @@
     font-family: 'Lato Bold', arial, sans-serif;
     font-weight: bold;
     font-size: 18px;
+    line-height: 15px;
 }
 
 .ttw-music-player .artist-outer {
@@ -299,7 +300,7 @@
 }
 
 .ttw-music-player li:nth-child(1n + 10) .title{
-    padding-left:7px;
+    
 }
 
 .ttw-music-player li.playing {

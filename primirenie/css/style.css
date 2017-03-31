@@ -147,6 +147,10 @@ textarea {
   padding: 0;
 }
 
+.yt-uix-sessionlink {
+  display: none;
+}
+
 html,
 body {
   width: 100%;
@@ -199,6 +203,8 @@ h2 {
   text-align: center;
   font-size: 27px;
   text-shadow: 1px 1px rgba(0,0,0,0.7);
+  transition: 3s;
+  opacity: 0;
 }
 
 .header-textbox>* {
@@ -254,6 +260,8 @@ h2 {
   -ms-flex-align: center;
   align-items: center;
   padding-top: 30px;
+  transition: 3s;
+  opacity: 0;
 }
 
 .burger {
@@ -628,7 +636,7 @@ main {
   margin-left: 5px;
   margin-right: 5px;
   word-wrap: break-word;
-  width: calc(25% - 10px);
+  width: calc(33.333333333333336% - 10px);
   position: relative;
   margin-top: 10px;
   height: 350px;
@@ -694,8 +702,10 @@ main {
 }
 
 .pastors {
-  padding: 50px 0;
+  margin: 30px 0;
+  padding: 10px 0;
   margin-bottom: 20px;
+  background: #f4f4f4;
 }
 
 .pastors-wrapper {
@@ -746,7 +756,6 @@ main {
 }
 
 .about_church {
-  background: #f4f4f4;
   min-height: 500px;
   padding: 50px 0;
 }
@@ -829,7 +838,7 @@ main {
 }
 
 footer {
-  min-height: 400px;
+  min-height: 380px;
   background: #333;
   color: #ccc;
   display: -ms-flexbox;
@@ -911,7 +920,7 @@ footer h3 {
 }
 
 .raspis {
-  padding-left: 20px;
+  padding-left: 80px;
 }
 
 .raspis span {
@@ -943,12 +952,20 @@ footer h3 {
   margin-top: 30px;
 }
 
-.footer-rassilka input {
+.footer-rassilka input,
+.footer-rassilka textarea {
   background: #2a2a2a;
   height: 30px;
   width: 280px;
   border: 1px solid #5b5b5b;
   padding-left: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-rassilka textarea {
+  height: 80px;
+  padding-top: 5px;
 }
 
 .rassilka-button {
@@ -1008,6 +1025,30 @@ footer h3 {
 
 .gold {
   color: #000;
+}
+
+.camp-button {
+  background: #fc0;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 2px;
+  color: #f0f8ff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.36);
+  font-size: 27px;
+}
+
+.camp-button:hover,
+.camp-button:focus {
+  background: #e8ba04;
 }
 
 .nav-ins {
@@ -1266,6 +1307,57 @@ footer h3 {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.developers {
+  background: #222;
+  height: 90px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #797979;
+  font-size: 18px;
+  position: relative;
+}
+
+.developers a {
+  color: #797979;
+  text-decoration: underline;
+}
+
+.heart {
+  color: #ff4b4b;
+  width: 20px;
+  text-align: center;
+  animation: heart 0.8s infinite;
+  margin-left: 4px;
+}
+
+@keyframes heart {
+  from {
+    font-size: 20px;
+  }
+
+  to {
+    font-size: 22px;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @media (min-width:480px) {
