@@ -570,6 +570,7 @@ main {
   margin-top: 100px;
   opacity: 0;
   transition: opacity 1s;
+  text-transform: uppercase;
 }
 
 .pogertvovanie-type {
