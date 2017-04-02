@@ -58,17 +58,16 @@ $('.owl-carousel-pastor').owlCarousel({
 });
 
 $('.owl-carousel-way').owlCarousel({
-    loop:true,
     margin:10,
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:3
+            items:1
         },
         1000:{
-            items:4
+            items:3
         }
     }
 });
@@ -76,15 +75,6 @@ $('.owl-carousel-way').owlCarousel({
 // Карусели на главной
 
 
-// Проповеди
-
-
-//let open = document.querySelectorAll('.play-close');
-//for(i=0;i<open.length;i++) {
-//
-//   prop[i].style.height='150px';
-//
-//}
 
 // Скролл
 
@@ -99,10 +89,15 @@ $('.owl-carousel-way').owlCarousel({
 
 // Скролл
 
+// Прокрутка
+
 $(document).ready(function() {
   $(".categor-wrapper").customScroll();
 });
 
+// Прокрутка
+
+// Новости
 
 $('.rotation').click(function(){
 
@@ -110,9 +105,30 @@ $('.rotation').click(function(){
 
 });
 
+// Плавное появление
+
 $(document).ready(function() {
    setTimeout(function() {
   $(".header-textbox").css('opacity', '1');
   $(".header-nav").css('opacity', '1');
    }, 800);
+});
+
+// Плавное появление
+
+// Мобильная навигация 
+
+$('.burger').on('click', function(){
+
+  $('.header-nav').slideToggle(300, function() {
+  
+    if($('.burger').css('display') === 'none') {
+    
+      $('.header-nav').removeAttr('style');
+   
+    
+    };
+  
+  });
+  
 });
