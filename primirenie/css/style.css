@@ -788,6 +788,8 @@ main {
   -ms-flex: 1px;
   flex: 1;
   text-align: center;
+  -ms-flex-preferred-size: 300px;
+  flex-basis: 300px;
 }
 
 .about_church__pic img {
@@ -1360,7 +1362,6 @@ footer h3 {
   color: #797979;
   font-size: 18px;
   position: relative;
-  display: none;
 }
 
 .developers a {
@@ -1374,6 +1375,14 @@ footer h3 {
   text-align: center;
   animation: heart 0.8s infinite;
   margin-left: 4px;
+}
+
+.icon {
+  font-size: 30px;
+  color: #ffd700;
+  position: absolute;
+  top: 20px;
+  left: 10px;
 }
 
 @keyframes heart {

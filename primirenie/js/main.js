@@ -116,19 +116,19 @@ $(document).ready(function() {
 
 // Плавное появление
 
-// Мобильная навигация 
+// Мобильная навигация
 
 $('.burger').on('click', function(){
 
   $('.header-nav').slideToggle(300, function() {
-  
+
     if($('.burger').css('display') === 'none') {
-    
+
       $('.header-nav').removeAttr('style');
-   
-    
+
+
     };
-  
+
   });
-  
+
 });
