@@ -184,7 +184,9 @@ h2 {
 }
 
 .header-logo {
+  background: url("../img/sprite.png") -600px 0px;
   width: 200px;
+  height: 166px;
   margin-top: 50px;
 }
 
@@ -227,9 +229,16 @@ h2 {
 
 .lines {
   background: url('../img/two-lines.png') no-repeat;
-  height: 6px;
+  background-size: cover;
   width: 100%;
-  margin: 0 10px;
+  height: 6px;
+}
+
+.icon-gold-line {
+  background: url("../img/sprite.png") -62px -166px;
+  width: 170px;
+  height: 9px;
+  margin: auto;
 }
 
 .span-2 {
@@ -340,14 +349,6 @@ main {
   justify-content: center;
 }
 
-.white-logo {
-  background: url('../img/logo-white.png');
-  background-size: cover;
-  width: 80px;
-  height: 70px;
-  margin: auto;
-}
-
 .welcome {
   font: 35px "Droid Serif";
   color: #333;
@@ -408,9 +409,12 @@ main {
 }
 
 .cross {
+  background: url("../img/sprite.png") 0px -166px;
   position: absolute;
   left: 0;
   top: 0;
+  width: 62px;
+  height: 118px;
 }
 
 .rotation {
@@ -850,9 +854,18 @@ main {
 }
 
 .cool__cross {
+  background: url("../img/sprite.png") -200px 0px;
   position: absolute;
   top: 0;
   left: 0;
+  width: 100px;
+  height: 130px;
+}
+
+.verse-logo {
+  background: url("../img/sprite.png") -600px 0px;
+  width: 200px;
+  height: 166px;
 }
 
 footer {
@@ -1325,7 +1338,7 @@ footer h3 {
 .contacts-map {
   -ms-flex: 1px;
   flex: 1;
-  min-width: 600px;
+  min-width: 300px;
 }
 
 .map-container {
@@ -1362,6 +1375,8 @@ footer h3 {
   color: #797979;
   font-size: 18px;
   position: relative;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .developers a {
