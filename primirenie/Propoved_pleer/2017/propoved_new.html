@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-
 <html lang="ru">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Плеер</title>
-    <script type="text/javascript" src="../../js/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../plugin/css/style.css">
-    <script type="text/javascript" src="../plugin/jquery-jplayer/jquery.jplayer.js"></script>
-    <script type="text/javascript" src="../plugin/ttw-music-player.js"></script>
-    <script type="text/javascript" src="js/myplaylist.js"></script>
-    <link rel="stylesheet" href="../../css/style.css" />
+   <title>Плеер</title>
+   <script type="text/javascript" src="../../js/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="../plugin/css/style.css">
+   <script type="text/javascript" src="../plugin/jquery-jplayer/jquery.jplayer.js"></script>
+   <script type="text/javascript" src="../plugin/ttw-music-player.js"></script>
+   <script type="text/javascript" src="js/myplaylist.js"></script>
+   <link rel="stylesheet" href="../../css/style.css" /> </head>
 
-    </head>
-  <body>
+<body>
    <header class="header-ins">
       <div class="header-ins__nav">
          <div class="wrapper">
             <div class="header-prop__container">
                <div class="logo-ins"><img src="../../img/logo-ins.png" alt="logo" /><span>Прими<span class="gold">рение</span></span>
                </div>
-               <div class="nav nav-ins"><a class="nav-ins__item" href="">Главная</a><a class="nav-ins__item" href="">Проповеди</a><a class="nav-ins__item" href="">Служения</a><a class="nav-ins__item" href="">Контакты</a><a class="nav-ins__item" href="">Служители</a><a class="nav-ins__item" href="">Статьи</a></div>
+               <div class="nav nav-ins"><a class="nav-ins__item" href="../../propoved.html">Проповеди</a><a class="nav-ins__item" href="../../index.html#sobit">События</a><a class="nav-ins__item" href="../../index.html#money">Пожертвования</a><a class="nav-ins__item" href="../../index.html#slug">Служения</a><a class="nav-ins__item" href="../../index.html#pastors">Служители</a><a class="nav-ins__item" href="../../index.html#about_us">О церкви</a><a class="nav-ins__item" href="../../index.html">Лагерь</a><a class="nav-ins__item" href="../../contacts.html">Контакты</a></div>
             </div>
          </div>
       </div>
@@ -28,21 +27,18 @@
          <h1 class="header-ins__h1">Проповеди</h1></div>
    </header>
    <main class="main-prop" style="position:relative">
-          <script type="text/javascript">
-
-            var description = '';
-
-            $('.main-prop').ttwMusicPlayer(myPlaylist, {
-                autoPlay:false,
-                description:description,
-                jPlayer:{
-                    swfPath:'../plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
-                }
-            });
-
-    </script>
+      <script type="text/javascript">
+         var description = '';
+         $('.main-prop').ttwMusicPlayer(myPlaylist, {
+            autoPlay: false
+            , description: description
+            , jPlayer: {
+               swfPath: '../plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+            }
+         });
+      </script>
    </main>
-   <footer style= "position:absolut">
+   <footer style="position:absolut">
       <div class="wrapper">
          <div class="footer-wrapper">
             <div class="footer-discrip footer-col">
@@ -73,4 +69,4 @@
    </footer>
 </body>
 
-    </html>
+</html>
