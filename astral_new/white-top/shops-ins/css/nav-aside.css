@@ -1,0 +1,21 @@
+.nav-aside__item {
+  height: 40px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 15px;
+}
+
+.nav-aside__item_active {
+  color: #1152cb;
+  box-shadow: -3px 0px 0px #1152cb;
+
+}
+
+.nav-aside__item_active:hover {
+  color: #1152cb;
+}

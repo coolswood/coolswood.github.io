@@ -1,0 +1,43 @@
+.new {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding: 15px;
+    display: block;
+    transition: 0.5s;
+}
+
+.two_block {
+    min-height: 270px;
+    padding: 40px 50px;
+}
+
+.two_block__text {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.two_block__soc {
+    margin-right: 15px;
+}
+
+.centr-new {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+@media(max-width: 575px) {
+    .two_block__text {
+        font-size: 30px;
+    }
+    .input-group input {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+        border-radius: 0 !important;
+    }
+    .input-group button, .input-group-append {
+        width: 100%;
+        border-radius: 0 !important;
+    }
+}

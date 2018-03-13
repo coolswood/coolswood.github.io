@@ -1,0 +1,35 @@
+.partners-join .btn {
+  box-shadow: 0 16px 32px rgba(0,0,0,0.18);
+}
+.partners-join .btn:hover {
+   box-shadow: 0 5px 22px rgba(0,0,0,0.28);
+ }
+
+.partners-title a {
+  color: #868d96;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+}
+
+#carouselPartners {
+  height: 50px;
+}
+#carouselPartners .carousel-item .row{
+  height: 50px;
+}
+
+#carouselPartners .carousel-control-next,
+#carouselPartners .carousel-control-prev {
+  background: #fff;
+  width: 46px;
+  height: 46px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+  border-radius: 50%;
+}
+
+#carouselPartners .fa-angle-left,
+#carouselPartners .fa-angle-right {
+  color: #1050cc;
+  font-weight: bold;
+}

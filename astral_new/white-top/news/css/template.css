@@ -1,0 +1,8 @@
+@import "../../../css/style.css";
+@import "../../../css/custom.css";
+@import "../../css/header.css";
+@import "../../../css/footer.css";
+@import "../../css/subscr.css";
+
+@import "inner.css";
+@import "news.css";

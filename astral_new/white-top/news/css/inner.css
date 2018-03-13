@@ -1,0 +1,23 @@
+.main_white {
+  background: #fff;
+}
+
+.btn-discount {
+  color: #e1631a;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.ins-h2 {
+  text-align: center;
+  color: #2461d6;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.ins-h5 {
+  color: #868d96;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}

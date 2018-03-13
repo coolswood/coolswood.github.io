@@ -1,0 +1,142 @@
+button {
+    cursor: pointer;
+}
+
+a:hover, a:focus, a:focus {
+    color: initial;
+    text-decoration: none;
+}
+
+.btn-link:focus, .btn-link.focus {
+    text-decoration: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.form-control {
+    border-color: #b6b9c1;
+    color: #868d96;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 1rem 0.2rem rgba(0, 79, 209, 0.25);
+}
+
+.text-muted {
+    color: #868e98;
+}
+
+.breadcrumb {
+    background: #fff !important;
+}
+
+.breadcrumb-item a {
+    color: #868e98 !important;
+}
+
+.breadcrumb-item.active {
+    color: #000 !important;
+}
+
+
+.pagination .page-link {
+    border-radius: 50%;
+    margin: 0px 5px !important;
+    padding: 3px 9px !important;
+    border: none;
+}
+
+.pagination .page-link:hover {
+    background-color: rgb(17, 82, 203);
+    color: rgb(255, 255, 255);
+}
+
+.pagination .page-link-arr .fa {
+    font-size: 25px;
+    color: rgb(222, 225, 230);
+    padding: 1px 10px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.btn-outline-secondary.dropdown-toggle {
+    background: #fff !important;
+    border: 1px solid #e3e5e9 !important;
+    border-radius: 4px !important;
+    color: #242f3d !important;
+}
+
+.dropdown-toggle .fa {
+    padding-left: 70px
+}
+
+.badge {
+    border-radius: 12px;
+    padding: 4px 10px 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.badge-info {
+    background: #46b5f2;
+}
+
+.kass__text {
+    color: #242f3d;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  transition: .3s;
+}
+
+.card:hover{
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.32);
+}
+
+@media(max-width: 991px) {
+    .navbar-collapse {
+        position: absolute;
+        width: 100vw;
+        background: #fff;
+        top: 80px;
+        left: 0;
+        z-index: 100;
+    }
+
+    .navbar-collapse .nav-link {
+        color: black !important;
+    }
+
+    .shop__nav {
+
+    }
+
+    .shop-nav-header {
+        position: relative;
+    }
+}

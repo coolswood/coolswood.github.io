@@ -1,0 +1,74 @@
+#carouselHeader {
+  padding: 70px 0;
+}
+#carouselHeader .carousel-item {
+  color: #fff;
+}
+
+/* Индикатор */
+#carouselHeader .carousel-indicators li {
+  background: rgba(255,255,255,0.2);
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+#carouselHeader .carousel-indicators li.active {
+  background: #fff;
+}
+
+/* Навигация */
+#carouselHeader .carousel-control-next,
+#carouselHeader .carousel-control-prev,
+#carouselHeader .carousel-indicators {
+  position: relative;
+  bottom: 0;
+}
+
+#carouselHeader .carousel-indicators {
+  margin: auto;
+  max-width: 900px;
+}
+
+#carouselHeader .carousel-control-next,
+#carouselHeader .carousel-control-prev {
+  width: 46px;
+  height: 46px;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 50%;
+  opacity: 1;
+}
+
+
+#carouselHeader .header-slider__text {
+}
+
+#carouselHeader .header-slider__text h3 {
+  font-size: 56px;
+  font-weight: 300;
+}
+#carouselHeader .header-slider__text hr {
+  border: 1px solid #fff;
+  width: 70px;
+  margin: 15px 0;
+}
+#carouselHeader .header-slider__text p {
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+}
+
+
+#carouselHeader .header-slider__text button {
+  color: #2461d6;
+}
+
+@media (max-width: 991.98px) {
+  #carouselHeader .header-slider__text button {
+    color: #2461d6;
+    width: 100%;
+  }
+  #carouselHeader .carousel-control-next,
+  #carouselHeader .carousel-control-prev {
+    display: none;
+  }
+}

@@ -1,0 +1,75 @@
+.info_about_company h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.h2_col {
+  color: #1050cc;
+}
+
+.info_about_company__map {
+  min-height: 630px;
+  width: 100%;
+  background: url('../img/info_about_company/map.png') no-repeat;
+  background-size: contain;
+}
+
+.info_about_company__tabs {
+  background: #fff;
+  min-height: 260px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  border-radius: 8px;
+  margin: 70px auto;
+  max-width: 950px;
+}
+
+.tabs_up {
+  min-height: 150px;
+  border-bottom: 1px solid #d3d8e1;
+}
+
+.tabs_up .active {
+  box-shadow: 0px 3px 0px 0px #0543bb;
+}
+
+.tabs_up .tab {
+  width: 33%;
+  cursor: pointer;
+}
+
+.tabs_up .tab h4 {
+  color: #1050cc;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.tabs_up .tab span {
+  color: #868d96;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.info_about_company__logo {
+  margin: 60px 0;
+  margin-bottom: 30px;
+}
+
+.tab_down {
+  color: #383e48;
+  font-size: 18px;
+  font-weight: 400;
+  min-height: 110px;
+  text-align: center;
+  padding: 20px;
+}
+
+.info_about_company__btn {
+  padding: 15px 80px;
+}
+
+@media (max-width: 767.98px) {
+  .tabs_up .tab h4 {
+    font-size: 25px;
+  }
+}

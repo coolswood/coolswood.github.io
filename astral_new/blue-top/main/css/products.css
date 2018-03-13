@@ -1,0 +1,172 @@
+.main-products {
+  padding-top: 50px;
+}
+
+.main-products > .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.main-products > .row > [class^=col] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.main-products .main-products-item {
+  display: block;
+  position: relative;
+  background: #fff;
+  min-height: 170px;
+  border-radius: 8px;
+  padding: 34px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+
+}
+
+.main-products .main-products-item .main-products-content {
+  color: #212529;
+}
+
+.main-products .main-products-item .main-products-content h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.main-products .main-products-item .main-products-content span {
+  display: block;
+  font-size: 16px;
+  opacity: 0;
+  text-align: right;
+}
+
+.main-products .main-products-item:hover,
+.main-products .main-products-item:focus {
+  color: #fff;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.32);
+}
+
+.main-products .main-products-item:hover .main-products-content,
+.main-products .main-products-item:focus .main-products-content {
+  color: #fff;
+}
+
+.main-products .main-products-item:hover .main-products-content p,
+.main-products .main-products-item:focus .main-products-content p {
+  opacity: 0;
+}
+
+.main-products .main-products-item:hover .main-products-content span,
+.main-products .main-products-item:focus .main-products-content span {
+  opacity: 1;
+}
+
+.main-products .main-products-item.main-products-icon-1,
+.main-products .main-products-item.main-products-icon-2,
+.main-products .main-products-item.main-products-icon-3,
+.main-products .main-products-item.main-products-icon-4,
+.main-products .main-products-item.main-products-icon-5,
+.main-products .main-products-item.main-products-icon-6,
+.main-products .main-products-item.main-products-icon-7,
+.main-products .main-products-item.main-products-icon-8,
+.main-products .main-products-item.main-products-icon-9,
+.main-products .main-products-item.main-products-icon-10 {
+  background-position: 90% 20px, 10px 90%;
+  background-repeat: no-repeat;
+  background-size: 50px, 100px;
+}
+
+.main-products .main-products-item.main-products-icon-1 {
+  background-image: url('../img/products/1С-отчетность_thin.svg');
+}
+
+.main-products .main-products-item.main-products-icon-1:hover {
+  background-color: #ba232d;
+  background-image: url('../img/products/1С-отчетность_thin_w.svg'), url('../img/products/1С-отчетность_thin_h.svg');
+}
+
+
+.main-products .main-products-item.main-products-icon-2 {
+  background-image: url('../img/products/astral-ЭТ_thin.svg');
+}
+
+.main-products .main-products-item.main-products-icon-2:hover {
+  background-color: #335e8d;
+  background-image: url('../img/products/astral-ЭТ_thin_w.svg'), url('../img/products/astral-ЭТ_thin_h.svg');
+}
+
+.main-products .main-products-item.main-products-icon-3 {
+  background-image: url('../img/products/astral-ЭТ_thin.svg');
+}
+
+.main-products .main-products-item.main-products-icon-3:hover {
+  background-color: #335e8d;
+  background-image: url('../img/products/astral-ЭТ_thin_w.svg'), url('../img/products/astral-ЭТ_thin_h.svg');
+}
+
+.main-products .main-products-item.main-products-icon-4 {
+  background-image: url('../img/products/astral-отчетность_thin.svg');
+}
+
+.main-products .main-products-item.main-products-icon-4:hover {
+  background-color: #0d5595;
+  background-image: url('../img/products/astral-отчетность_thin_w.svg'), url('../img/products/astral-отчетность_thin_h.svg');
+}
+
+.main-products .main-products-item.main-products-icon-5 {
+  background-image: url('../img/products/astral-ОФД_thin.svg');
+}
+
+.main-products .main-products-item.main-products-icon-5:hover {
+  background-color: #174ac3;
+  background-image: url('../img/products/astral-ОФД_thin_w.svg'), url('../img/products/astral-ОФД_thin_h.svg');
+}
+
+.main-products .main-products-item.main-products-icon-6 {
+  background-image: url('../img/products/1С-ЭДО_thin.svg');
+}
+
+.main-products .main-products-item.main-products-icon-6:hover {
+  background-color: #5c2b86;
+  background-image: url('../img/products/1С-ЭДО_thin_w.svg'), url('../img/products/1С-ЭДО_thin_h.svg');
+}
+
+.main-products .main-products-item.main-products-icon-7 {
+  background-image: url('../img/products/1С-ЭТП_thin.svg');
+}
+
+.main-products .main-products-item.main-products-icon-7:hover {
+  background-color: #13849e;
+  background-image: url('../img/products/1С-ЭТП_thin_w.svg'), url('../img/products/1С-ЭТП_thin_h.svg');
+}
+
+.main-products .main-products-item.main-products-icon-8 {
+  background-image: url('../img/products/astral-СКРИН_thin.svg');
+}
+
+.main-products .main-products-item.main-products-icon-8:hover {
+  background-color: #ed7a47;
+  background-image: url('../img/products/astral-СКРИН_thin_w.svg'), url('../img/products/astral-СКРИН_thin_h.svg');
+}
+
+.main-products .btn-all {
+  color: #a5adb4;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 30px 0;
+  text-decoration: none;
+}
+
+@media(max-width:575.98px) {
+  .overflower {
+    overflow-x: scroll;
+  }
+}
+
+
+.overflower::-webkit-scrollbar {
+  width: 0px;
+}
