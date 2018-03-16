@@ -1,0 +1,143 @@
+.shop-main__h3 h3 {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 300;
+  display: inline;
+}
+
+.shop-main__h3 span {
+  color: #868e98;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.shop-main__card {
+  height: 346px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  position: relative;
+}
+
+.shop-main__card > * {
+  transition: 0.5s
+}
+
+.shop-main__img {
+  width: 100%;
+  height: 215px;
+}
+
+.shop-main__card img {
+  width: 100%;
+}
+
+.shop-main__card .card__text {
+  height: 131px;
+  position: relative;
+  background: #fff;
+  z-index: 3;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.shop-main__card .card__text h4 {
+  color: #242f3d;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.shop-main__card .card__text .card__price {
+  color: #2461d6;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.card_btn {
+  height: 50px;
+  width: 100%;
+  background-color: #2461d6;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.shop-main__card:hover .card__text {
+  height: 120px;
+}
+
+.shop-main__card:hover .shop-main__img {
+  height: 175px;
+}
+
+.shop-main__card:hover .card_btn {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  border-radius: 0 0 8px 8px;
+  visibility: visible;
+}
+
+.fa-shopping-cart {
+  color: #fff;
+}
+
+.fa-shopping-cart:hover {
+  color: #fff;
+}
+
+.i_looked {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+@media(max-width: 991.98px) {
+  .shop-main__card {
+    height: 270px;
+  }
+  .shop-main__img {
+    height: 150px;
+  }
+  .shop-main__card .card__text {
+    height: 120px;
+  }
+  .shop-main__card:hover .shop-main__img {
+    height: 100px;
+  }
+  .shop-main__card:hover .card__text {
+    height: 120px;
+  }
+}
+
+@media(max-width: 768px) {
+  .shop-main__card_small {
+    height: 400px;
+  }
+  .shop-main__card_small .shop-main__img {
+    height: 280px;
+  }
+  .shop-main__card_small:hover .card__text{
+    height: 150px;
+  }
+  .shop-main__card_small:hover .shop-main__img {
+    height: 200px;
+  }
+  .dropdown-toggle {
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex !important;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+  }
+}
