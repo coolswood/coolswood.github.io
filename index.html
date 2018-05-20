@@ -1,46 +1,594 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <link rel="manifest" href="/manifest.json">
-    <title>Портфолио</title>
-    <link href="static/css/main.884d41ab.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Портфолио</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu" rel="stylesheet">
+  <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
 </head>
+<body>
+    <div class="burger">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <aside>
+        <div class="avatar">
+            <div class="ava"></div>
+        </div>
+        <div class="name">Сугоняев Даниил</div>
+        <nav>
+            <a href="#home" class="nav_item">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <span>Главная</span>
+            </a>
+            <a href="#about" class="nav_item">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span>Обо мне</span>
+            </a>
+            <a href="#skill" class="nav_item">
+                <i class="fa fa-id-card-o" aria-hidden="true"></i>
+                <span>Мои навыки</span>
+            </a>
+            <a href="#portfolio" class="nav_item">
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                <span>Мои работы</span>
+            </a>
+            <button class="nav_item let">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>Связаться</span>
+            </button>
+        </nav>
+        <div class="social">
+            <a href="https://github.com/coolswood" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://vk.com/in_vino_veritas_1" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+            <a href="https://t.me/coolswood" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+        </div>
+    </aside>
 
-<body><noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <script type="text/javascript" src="static/js/main.a014db00.js"></script>
-</body>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter48184841 = new Ya.Metrika({
-                    id:48184841,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
-                });
-            } catch(e) { }
-        });
+    <main class="main">
+        <div class="cd-intro-content mask-2">
+            <div class="content-wrapper">
+                <div class="main_text">
+                <h1>Привет</h1>
+                <span>Меня зовут Даниил, я веб разработчик</span>
+                </div>
+            </div>
+        </div>
+    </main>
 
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/48184841" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+    <!-- About -->
+    <div id="about" class="panel">
+        <main class="about">
+            <div class="wrapper">
+                <h2>Обо мне</h2>
+                <h3>Путь в тысячу миль начинается с первого шага</h3>
+                <div class="line"></div>
+                <div class="about_wrap">
+                    <img src="img/img/jV5Z766kh8g.jpg" alt="dan">
+                    <div class="about_text">
+                    <div class="about_brif">
+                        <div class="about_brif-left">
+                            <div class="brif-item">
+                                <h5>ФИО:</h5>
+                                <span>Сугоняев Даниил Олегович</span>
+                            </div>
+                            <div class="brif-item">
+                                <h5>Возраст:</h5>
+                                <span>23 года</span>
+                            </div>
+                            <div class="brif-item">
+                                <h5>Мой опыт работы:</h5>
+                                <span>2 года</span>
+                            </div>
+                        </div>
+                    </div>
+                    <span>Имею опыт работы в создании и продвижении сайтов на различных cms начиная от управления блогами на Wordpress, заканчивая интернет-магазинами на Opencart, Moguta и 1-С Битрикс. Могу работать не только с графической составляющей движка, но также вносить правки в код.</span>
+                    <span>Касательно CEO оптимизации умею составлять семантическое ядро сайта, знаю основы продвижения в поисковой выдаче Google, Яндекс.</span>
+                    <span>Уже довольно продолжительное время занимаюсь font-end, имею представление о большинстве современных технологий. Большую часть своей карьеры проработал в качестве верстальщика. Обладаю навыками продвинутой верстки:</span>
+                    <ol>
+                        <li><span>Использование jquery</span></li>
+                        <li><span>В работе освоил сборщики проектов (Gulp, Webpack). https://github.com/coolswood/gulp-bower - моя сборка Gulp + bower.</span></li>
+                        <li><span>Имею представления об использовании Git</span></li>
+                        <li><span>При верстке работал с большинством препроцессоров. На данный момент использую Stylus и Pug</span></li>
+                        <li><span>Обрабатываю css по средствам Postcss</span></li>
+                    </ol>
+                    <span>На данный момент освоил в теории JavaScript, активно изучаю его библиотеку - React. Однако, не смотря на то, что меня устраивают условия на моей текущей работе, не могу достаточно полно развиваться в программировании. Хотел бы устроится в компанию, которая ищет молодых начинающих разработчиков на React. Потому как понимаю, что уперся в потолок и дальнейший рост возможен только на реальных проектах в команде более опытных коллег.</span>
+                </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- /About -->
+
+    <!-- skill -->
+    <div id="skill" class="panel">
+        <main class="about">
+
+            <div class="wrapper">
+                <h2>Основные технологии</h2>
+                <div class="line"></div>
+                <div class="skills">
+                    <div class="skill">
+                        <img src="img/img/skill/html.png" alt="html">
+                        <h3>HTML/CSS</h3>
+                        <div class="progress">
+                            <div class="loading-bar">
+                                <div class="amount green" style="width: 90%;">
+                                    <div class="loaded">
+                                        90%
+                                    </div>
+                                    <div class="lines"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="img/img/skill/js.png" alt="js">
+                        <h3>JavaScript</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount blue" style="width: 40%;">
+                                        <div class="loaded">
+                                            40%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="img/img/skill/php.png" alt="php">
+                        <h3>PHP</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount red" style="width: 30%;">
+                                        <div class="loaded">
+                                            30%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Библиотеки JS</h2>
+                <div class="line"></div>
+                <div class="skills">
+                    <div class="skill">
+                        <img src="img/img/skill/jquery.png" alt="jquery">
+                        <h3>JQUERY</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount green" style="width: 70%;">
+                                        <div class="loaded">
+                                            70%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="img/img/skill/react.png" alt="react">
+                        <h3>React</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount blue" style="width: 50%;">
+                                        <div class="loaded">
+                                            50%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="img/img/skill/native.png" alt="native">
+                        <h3>React Native</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount red" style="width: 20%;">
+                                        <div class="loaded">
+                                            20%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>CMS</h2>
+                <div class="line"></div>
+                <div class="skills">
+                    <div class="skill">
+                        <img src="img/img/skill/wordpress.png" alt="wordpress">
+                        <h3>Wordpress</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount green" style="width: 70%;">
+                                        <div class="loaded">
+                                            70%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="img/img/skill/opencart.png" alt="opencart">
+                        <h3>OpenCart</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount blue" style="width: 60%;">
+                                        <div class="loaded">
+                                            60%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="img/img/skill/bitrix.png" alt="bitrix">
+                        <h3>Bitrix</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount red" style="width: 40%;">
+                                        <div class="loaded">
+                                            40%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Cборщики проектов</h2>
+                <div class="line"></div>
+                <div class="skills">
+                    <div class="skill">
+                        <img src="img/img/skill/webpack.png" alt="webpack">
+                        <h3>Webpack</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount green" style="width: 70%;">
+                                        <div class="loaded">
+                                            70%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="img/img/skill/gulp.png" alt="gulp">
+                        <h3>Gulp</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount blue" style="width: 80%;">
+                                        <div class="loaded">
+                                            80%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Системы котроля версий</h2>
+                <div class="line"></div>
+                <div class="skills">
+                    <div class="skill">
+                        <img src="img/img/skill/git.png" alt="git">
+                        <h3>GIT</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount green" style="width: 40%;">
+                                        <div class="loaded">
+                                            40%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Препроцессоры</h2>
+                <div class="line"></div>
+                <div class="skills">
+                    <div class="skill">
+                        <img src="img/img/skill/stylus.png" alt="stylus">
+                        <h3>Stylus</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount green" style="width: 80%;">
+                                        <div class="loaded">
+                                            80%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="img/img/skill/less.png" alt="less">
+                        <h3>Less</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount blue" style="width: 80%;">
+                                        <div class="loaded">
+                                            80%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="img/img/skill/pug.png" alt="pug">
+                        <h3>Pug</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount red" style="width: 70%;">
+                                        <div class="loaded">
+                                            70%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Работа с графикой</h2>
+                <div class="line"></div>
+                <div class="skills">
+                    <div class="skill">
+                        <img src="img/img/skill/ph.jpg" alt="ph">
+                        <h3>Photoshop</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount green" style="width: 70%;">
+                                        <div class="loaded">
+                                            70%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="img/img/skill/xd.png" alt="xd">
+                        <h3>XD</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount blue" style="width: 50%;">
+                                        <div class="loaded">
+                                            50%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <img src="img/img/skill/avocode.png" alt="avocode">
+                        <h3>Avocode</h3>
+                        <div class="progress">
+                            <div class="progress">
+                                <div class="loading-bar">
+                                    <div class="amount red" style="width: 80%;">
+                                        <div class="loaded">
+                                            80%
+                                        </div>
+                                        <div class="lines"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- skill -->
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="panel">
+        <main class="about portfolios">
+            <div class="wrapper">
+                <h2>Портфолио</h2>
+                <div class="line"></div>
+                <div class="portfolio">
+                    <div class="portfolio-filter">
+                        <button class="filter_item mixitup-control-active" data-filter="all">Все работы</button>
+                        <button class="filter_item" data-filter=".HTML">HTML</button>
+                        <button class="filter_item" data-filter=".bootstrap">bootstrap</button>
+                        <button class="filter_item" data-filter=".react">React</button>
+                        <button class="filter_item" data-filter=".jquery">JQUERY</button>
+                        <button class="filter_item" data-filter=".javascript">JavaScript</button>
+                        <button class="filter_item" data-filter=".wordpress">wordpress</button>
+                        <button class="filter_item" data-filter=".php">php</button>
+                    </div>
+                    <div class="portfolio_works" id="container">
+                        <a href="https://coolswood.github.io/map/" target="_blank" class="work mix javascript react work_map">
+                            <div class="cover"></div>
+                            <div class="work_text">
+                                <h4>Map</h4>
+                                <span>Яндекс карта на React с возможностью добавления меток, при нажатии скроллит к метке.</span>
+                                <div class="technology">
+                                    <div class="technology_item javascript">javascript</div>
+                                    <div class="technology_item react">react</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://primirenie.ru/" target="_blank" class="work mix HTML wordpress php javascript jquery work_prim">
+                            <div class="cover"></div>
+                            <div class="work_text">
+                                <h4>Церковь примирение</h4>
+                                <span>Одна из моих первых работ. Данный сайт сверстан полностью с нуля и установлен на CMS Wordpress.</span>
+                                <div class="technology">
+                                    <div class="technology_item html">HTML</div>
+                                    <div class="technology_item wordpress">wordpress</div>
+                                    <div class="technology_item php">php</div>
+                                    <div class="technology_item javascript">javascript</div>
+                                    <div class="technology_item jquery">jquery</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://self-education.online/youtube/адам-портит-все/" target="_blank" class="work mix HTML wordpress javascript work_self">
+                            <div class="cover"></div>
+                            <div class="work_text">
+                                <h4>Self-education.online</h4>
+                                <span>Мой сервис по просмотру видео с субтитрами и мгновенным переводом. Находится еще в разработке.</span>
+                                <div class="technology">
+                                    <div class="technology_item html">HTML</div>
+                                    <div class="technology_item wordpress">wordpress</div>
+                                    <div class="technology_item javascript">javascript</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="http://lifes-ru.1gb.ru/weather/" target="_blank" class="work mix javascript react work_weather">
+                            <div class="cover"></div>
+                            <div class="work_text">
+                                <h4>Weather</h4>
+                                <span>Автоматическое определение геолокации и вывод прогноза погоды.</span>
+                                <div class="technology">
+                                    <div class="technology_item javascript">javascript</div>
+                                    <div class="technology_item react">react</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="http://www.people-pasta.ru/" target="_blank" class="work mix HTML jquery work_pasta">
+                            <div class="cover"></div>
+                            <div class="work_text">
+                                <h4>People&pasta</h4>
+                                <span>Небольшой лендинг кафе. Использовался эффект параллакс.</span>
+                                <div class="technology">
+                                    <div class="technology_item html">HTML</div>
+                                    <div class="technology_item jquery">jquery</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://coolswood.github.io/todo-list/" target="_blank" class="work mix JavaScript react work_check">
+                            <div class="cover"></div>
+                            <div class="work_text">
+                                <h4>Список задач</h4>
+                                <span>Реализация на React списка задач с возможностью сортировки по срочности задачи и анимации появления/удаления.</span>
+                                <div class="technology">
+                                    <div class="technology_item javascript">javascript</div>
+                                    <div class="technology_item react">react</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://coolswood.github.io/zenit/" target="_blank" class="work mix HTML jquery work_zenit">
+                            <div class="cover"></div>
+                            <div class="work_text">
+                                <h4>Зенит</h4>
+                                <span>Лендинг для банка Зенит</span>
+                                <div class="technology">
+                                    <div class="technology_item html">HTML</div>
+                                    <div class="technology_item jquery">jquery</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://coolswood.github.io/astral_new/white-top/news/" target="_blank" class="work mix HTML jquery bootstrap work_news">
+                            <div class="cover"></div>
+                            <div class="work_text">
+                                <h4>Astral Новости</h4>
+                                <div class="technology">
+                                    <div class="technology_item html">HTML</div>
+                                    <div class="technology_item jquery">jquery</div>
+                                    <div class="technology_item bootstrap">bootstrap</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://coolswood.github.io/astral_new/white-top/question-answer/" target="_blank" class="work mix HTML jquery bootstrap work_online">
+                            <div class="cover"></div>
+                            <div class="work_text">
+                                <h4>Astral online</h4>
+                                <div class="technology">
+                                    <div class="technology_item html">HTML</div>
+                                    <div class="technology_item jquery">jquery</div>
+                                    <div class="technology_item bootstrap">bootstrap</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://coolswood.github.io/astral_new/white-top/shops-ins/" target="_blank" class="work mix HTML jquery bootstrap work_shop">
+                            <div class="cover"></div>
+                            <div class="work_text">
+                                <h4>Astral Карточка товара</h4>
+                                <div class="technology">
+                                    <div class="technology_item html">HTML</div>
+                                    <div class="technology_item jquery">jquery</div>
+                                    <div class="technology_item bootstrap">bootstrap</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://coolswood.github.io/acrostia/" target="_blank" class="work mix HTML work_acrostia">
+                            <div class="cover"></div>
+                            <div class="work_text">
+                                <h4>Acrostia</h4>
+                                <div class="technology">
+                                    <div class="technology_item html">HTML</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="letter"></div>
+    <div id="wrap">
+		<div id='form_wrap'>
+			<form action="https://formspree.io/coolswood@yandex.ru"
+      method="POST">
+				<label for="email">Ваше сообщение : </label>
+				<textarea  name="message" value="Your Message" id="message" ></textarea>
+				<label for="name">Имя: </label>
+				<input type="text" name="name" value="" id="name" />
+				<label for="email">Email: </label>
+				<input type="text" name="email" value="" id="email" />
+				<input type="submit" name ="submit" value="Отправить" />
+			</form>
+		</div>
+	</div>
+<script type="text/javascript" src="js/main.js"></script></body>
+
 </html>
