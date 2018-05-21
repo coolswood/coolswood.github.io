@@ -3851,10 +3851,6 @@ main {
   .wrapper {
     margin-top: 80px;
   }
-  .work {
-    width: 95%;
-    justify-self: center;
-  }
   .burger {
     border-bottom: 1px solid #493fc8;
     width: 140px;
@@ -3873,7 +3869,7 @@ main {
     margin-right: 0;
   }
   .social {
-    bottom: 40px;
+    bottom: 80px;
   }
   .skills .skill {
     margin-left: 10px;
