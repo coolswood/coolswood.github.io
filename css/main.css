@@ -3848,6 +3848,13 @@ main {
   aside {
     width: 140px;
   }
+  .wrapper {
+    margin-top: 80px;
+  }
+  .work {
+    width: 95%;
+    justify-self: center;
+  }
   .burger {
     border-bottom: 1px solid #493fc8;
     width: 140px;
@@ -3882,6 +3889,10 @@ main {
   #form_wrap:after {
     display: none;
   }
+  #wrap {
+    -webkit-transform: translate(-50%, -20%);
+            transform: translate(-50%, -20%);
+  }
   #wrap,
   #form_wrap,
   form {
@@ -3896,6 +3907,10 @@ main {
   #form_wrap:focus {
     height: 446px;
     top: 0;
+  }
+  #form_wrap:hover form,
+  #form_wrap:focus form {
+    height: 350px;
   }
   input[type=text],
   textarea {
