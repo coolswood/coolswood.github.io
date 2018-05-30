@@ -3581,6 +3581,9 @@ input[type=text]:focus {
 .icons {
   margin-right: 20px;
 }
+.icon img {
+  width: 50px;
+}
 .contact .nav-card a.gmail .icon svg {
   padding: 0;
 }
@@ -3969,12 +3972,24 @@ main {
   grid-gap: 25px;
   margin-top: 30px;
 }
+.work__wrap {
+  position: relative;
+}
+.work__wrap .github {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 45px;
+  z-index: 1;
+  opacity: 0.7;
+}
 .work {
   height: 360px;
   background-color: #a1a1a1;
-  position: relative;
   overflow: hidden;
   background-size: cover !important;
+  position: relative;
+  display: block;
 }
 .work .cover {
   width: 100%;
@@ -3990,6 +4005,9 @@ main {
 }
 .work:hover h4, .work:focus h4 {
   background: none;
+}
+.work:hover .github, .work:focus .github {
+  opacity: 1;
 }
 .work h4 {
   color: #fff;
