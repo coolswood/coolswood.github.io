@@ -3091,7 +3091,7 @@ input[type=text]:focus {
 }
 .lines {
 /* the lines overflow the container. This creates a continuous flow of the background */
-  width: 200%;
+  width: 400px;
 /* We use a SVG file as the background */
   background: url(../img/img/lines.svg) repeat-x;
   height: 120%;
