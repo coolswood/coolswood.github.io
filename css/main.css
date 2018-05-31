@@ -4083,6 +4083,9 @@ main {
 .react {
   background: #00a79b;
 }
+.vue {
+  background: #5ec295;
+}
 .work_map {
   background: url(../img/img/portfolio/map.png) center;
 }
@@ -4115,6 +4118,9 @@ main {
 }
 .work_acrostia {
   background: url(../img/img/portfolio/acrostia.png) center;
+}
+.work_quiz_vue {
+  background: url(../img/img/portfolio/quiz-vue.png) center;
 }
 .skills {
   display: grid;
