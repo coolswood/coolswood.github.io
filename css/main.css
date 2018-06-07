@@ -3817,7 +3817,8 @@ main {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-          font-size: 5.625rem;
+  color: #fff;
+  font-size: 5.625rem;
 }
 @media (min-width:480px) {
   .main_text h1 {
@@ -3839,7 +3840,9 @@ main {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-          font-size: 1.5625rem;
+  color: #fff;
+  text-shadow: 1px 1px #372db4, 1px -1px #372db4, -1px 1px #372db4, -1px -1px #372db4, 3px 3px 6px rgba(0,0,0,0.5);
+  font-size: 1.5625rem;
 }
 @media (min-width:480px) {
   .main_text span {
