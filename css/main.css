@@ -3919,6 +3919,10 @@ main {
 .about_text {
   margin-left: 20px;
 }
+.intend_text span {
+  margin-bottom: 10px;
+  display: block;
+}
 .about_brif {
   display: -ms-flex;
   display: -webkit-box;
