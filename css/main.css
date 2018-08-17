@@ -3497,12 +3497,18 @@ input[type=text]:focus {
           transition-delay: 0.5s;
 }
 .contact .nav-card {
-  float: left;
   width: 100%;
   overflow: hidden;
   max-height: 0px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .contact .nav-card.active {
   max-height: 600px;
@@ -3550,11 +3556,9 @@ input[type=text]:focus {
           transition-delay: 1.5s;
 }
 .contact .nav-card a {
-  float: left;
   width: 100%;
   margin-top: 18px;
   background-color: #fff;
-  padding: 1.125rem 1.25rem;
   text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -3562,6 +3566,9 @@ input[type=text]:focus {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 @media (min-width: 414px) {
   .contact .nav-card a {
