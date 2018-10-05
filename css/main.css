@@ -4136,6 +4136,9 @@ main {
 .work_quiz_vue {
   background: url(../img/img/portfolio/quiz-vue.png) center;
 }
+.work_kaliaev_life {
+  background: url(../img/img/portfolio/kaliaev.jpg) center;
+}
 .skills {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
