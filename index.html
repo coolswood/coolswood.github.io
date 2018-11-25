@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Портфолио</title>
     <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
     <link href="css/main.css" rel="stylesheet"></head>
     <body>
@@ -16,11 +16,11 @@
                 props: ['name', 'img', 'progress', 'color'],
                 template: `
                 <div class="skill">
-                    <img :src='img' :alt="name">
+                    <img :src="'img/img/skill/' + name + '.png'" :alt="name">
                     <h3>{{ name }}</h3>
                     <div class="progress">
                         <div class="loading-bar">
-                            <div class="amount" :class="color" :style="{width: progress + '%'}">
+                            <div class="amount" :style="{width: progress + '%'}">
                                 <div class="loaded">
                                     {{ progress }}%
                                 </div>
@@ -231,195 +231,56 @@
                         <h2>Основные технологии</h2>
                         <div class="line"></div>
                         <div class="skills">
-
-                            <skill
-                                name = "HTML/CSS"
-                                img = "img/img/skill/html.png"
-                                color = "green"
-                                progress = "90">
-                            </skill>
-
-                            <skill
-                                name = "JavaScript"
-                                img = "img/img/skill/js.png"
-                                color = "blue"
-                                progress = "60">
-                            </skill>
-
-                            <skill
-                                name = "PHP"
-                                img = "img/img/skill/php.png"
-                                color = "red"
-                                progress = "30">
-                            </skill>
-
-                            <skill
-                                name = "Node.js"
-                                img = "img/img/skill/node.png"
-                                color = "blue_hard"
-                                progress = "30">
-                            </skill>
-
+                            <skill name = "HTML & CSS" progress = "90"></skill>
+                            <skill name = "JavaScript" progress = "60"></skill>
+                            <skill name = "PHP" progress = "30"></skill>
+                            <skill name = "Node.js" progress = "30"></skill>
                         </div>
                         <h2>Библиотеки JS</h2>
                         <div class="line"></div>
                         <div class="skills">
-
-                            <skill
-                                name = "JQUERY"
-                                img = "img/img/skill/jquery.png"
-                                color = "green"
-                                progress = "70">
-                            </skill>
-
-                            <skill
-                                name = "React / Redux"
-                                img = "img/img/skill/react.png"
-                                color = "blue"
-                                progress = "80">
-                            </skill>
-
-                            <skill
-                                name = "React Native"
-                                img = "img/img/skill/native.png"
-                                color = "red"
-                                progress = "20">
-                            </skill>
-
-                            <skill
-                                name = "vue"
-                                img = "img/img/skill/vue.png"
-                                color = "blue_hard"
-                                progress = "30">
-                            </skill>
+                            <skill name = "JQUERY" progress = "70"></skill>
+                            <skill name = "React & Redux" progress = "80"></skill>
+                            <skill name = "React Native" progress = "20"></skill>
+                            <skill name = "vue" progress = "30"></skill>
                         </div>
                         <h2>Базы данных</h2>
                         <div class="line"></div>
                         <div class="skills">
-
-                            <skill
-                                name = "MongoDB"
-                                img = "img/img/skill/mongodb.png"
-                                color = "green"
-                                progress = "30">
-                            </skill>
-
+                            <skill name = "MongoDB" progress = "30"></skill>
                         </div>
                         <h2>CMS</h2>
                         <div class="line"></div>
                         <div class="skills">
-
-                            <skill
-                                name = "Wordpress"
-                                img = "img/img/skill/wordpress.png"
-                                color = "green"
-                                progress = "70">
-                            </skill>
-
-                            <skill
-                                name = "OpenCart"
-                                img = "img/img/skill/opencart.png"
-                                color = "blue"
-                                progress = "60">
-                            </skill>
-
-                            <skill
-                                name = "Bitrix"
-                                img = "img/img/skill/bitrix.png"
-                                color = "red"
-                                progress = "40">
-                            </skill>
-
+                            <skill name = "Wordpress" progress = "70"></skill>
+                            <skill name = "OpenCart" progress = "60"></skill>
+                            <skill name = "Bitrix" progress = "40"></skill>
                         </div>
                         <h2>Cборщики проектов</h2>
                         <div class="line"></div>
                         <div class="skills">
-
-                            <skill
-                                name = "Webpack"
-                                img = "img/img/skill/webpack.png"
-                                color = "green"
-                                progress = "80">
-                            </skill>
-
-                            <skill
-                                name = "Gulp"
-                                img = "img/img/skill/gulp.png"
-                                color = "blue"
-                                progress = "80">
-                            </skill>
-
+                            <skill name = "Webpack" progress = "80"></skill>
+                            <skill name = "Gulp" progress = "80"></skill>
                         </div>
                         <h2>Системы котроля версий</h2>
                         <div class="line"></div>
                         <div class="skills">
-
-                            <skill
-                                name = "GIT"
-                                img = "img/img/skill/git.png"
-                                color = "green"
-                                progress = "50">
-                            </skill>
-
+                            <skill name = "GIT" progress = "50"></skill>
                         </div>
                         <h2>Препроцессоры</h2>
                         <div class="line"></div>
                         <div class="skills">
-
-                            <skill
-                                name = "Stylus"
-                                img = "img/img/skill/stylus.png"
-                                color = "green"
-                                progress = "80">
-                            </skill>
-
-                            <skill
-                                name = "Less"
-                                img = "img/img/skill/less.png"
-                                color = "blue"
-                                progress = "80">
-                            </skill>
-
-                            <skill
-                                name = "Sass"
-                                img = "img/img/skill/sass.png"
-                                color = "blue"
-                                progress = "80">
-                            </skill>
-
-                            <skill
-                                name = "Pug"
-                                img = "img/img/skill/pug.png"
-                                color = "red"
-                                progress = "70">
-                            </skill>
-
+                            <skill name = "Stylus" progress = "80"></skill>
+                            <skill name = "Less" progress = "80"></skill>
+                            <skill name = "Sass" progress = "80"></skill>
+                            <skill name = "Pug" progress = "70"></skill>
                         </div>
                         <h2>Работа с графикой</h2>
                         <div class="line"></div>
                         <div class="skills">
-
-                            <skill
-                                name = "Photoshop"
-                                img = "img/img/skill/ph.jpg"
-                                color = "green"
-                                progress = "70">
-                            </skill>
-
-                            <skill
-                                name = "XD"
-                                img = "img/img/skill/xd.png"
-                                color = "blue"
-                                progress = "70">
-                            </skill>
-
-                            <skill
-                                name = "Avocode"
-                                img = "img/img/skill/avocode.png"
-                                color = "red"
-                                progress = "80">
-                            </skill>
-
+                            <skill name = "Photoshop" progress = "70"></skill>
+                            <skill name = "XD" progress = "70"></skill>
+                            <skill name = "Avocode" progress = "80"></skill>
                         </div>
                     </div>
                 </main>
