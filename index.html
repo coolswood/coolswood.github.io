@@ -20,7 +20,10 @@
                 props: ['name', 'img', 'progress', 'color'],
                 template: `
                 <div class="skill">
-                <img :src="'img/img/skill/' + name + '.png'" :alt="name">
+                <picture>
+                    <source type="image/webp" :srcset="'img/img/skill/' + name + '.webp'">
+                    <img :src="'img/img/skill/' + name + '.png'" :alt="name">
+                </picture>
                     <h3>{{ name }}</h3>
                     <div class="progress">
                         <div class="loading-bar">
