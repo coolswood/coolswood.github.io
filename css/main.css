@@ -1657,66 +1657,6 @@ input[type=text]:focus {
                 display: none;
             }
         }
-        @media (max-width: 750px) {
-            aside,
-            .avatar,
-            .name {
-                display: none;
-            }
-            aside {
-                width: 140px;
-            }
-            .burger {
-                border-bottom: 1px solid #493fc8;
-                width: 140px;
-            }
-            .main_text {
-                margin-left: 15px;
-            }
-            .panel {
-                margin-left: 0;
-                width: 100%;
-            }
-            .cd-intro-content {
-                margin-left: 0;
-            }
-            .about_brif-left {
-                margin-right: 0;
-            }
-            .social {
-                bottom: 40px;
-            }
-            .about_text {
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-            #form_wrap::before,
-            #form_wrap:after {
-                display: none;
-            }
-            #wrap,
-            #form_wrap,
-            form {
-                width: 100%;
-            }
-            form {
-                position: initial;
-                top: 0;
-                height: 300px;
-            }
-            #form_wrap:hover,
-            #form_wrap:focus {
-                height: 446px;
-                top: 0;
-            }
-            input[type=text],
-            textarea {
-                width: 310px;
-            }
-            .nav_item {
-                height: 80px;
-            }
-        }
         @-webkit-keyframes moveBars {
             100% {
                 margin-left: -180px;
