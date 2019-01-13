@@ -20,7 +20,10 @@
                 props: ['name', 'img', 'progress', 'color'],
                 template: `
                 <div class="skill">
-                    <img :src="'img/img/skill/' + name + '.png'" :srcset="'img/img/skill/' + name + '.webp'" :alt="name">
+                    <picture>
+                        <source :srcset="'img/img/skill/' + name + '.webp'" type="image/webp">
+                        <img :src="'img/img/skill/' + name + '.png'" :alt="name">
+                    </picture>
                     <h3>{{ name }}</h3>
                     <div class="progress">
                         <div class="loading-bar">
@@ -95,7 +98,10 @@
                     <div class="line"></div>
                     <div class="about_wrap">
                         <div class="img-and-cont">
-                            <img src="img/img/jV5Z766kh8g.jpg" srcset="img/img/jV5Z766kh8g.webp" alt="dan">
+                            <picture>
+                                <source srcset="img/img/jV5Z766kh8g.webp" type="image/webp">
+                                <img src="img/img/jV5Z766kh8g.jpg" alt="name">
+                            </picture>
                             <div class="contact">
                                 <div class="main-card">
                                     <section>
@@ -237,7 +243,7 @@
                         <div class="line"></div>
                         <div class="skills">
                             <skill name = "HTML&CSS" progress = "90"></skill>
-                            <skill name = "JavaScript" progress = "60"></skill>
+                            <skill name = "javascript" progress = "60"></skill>
                             <skill name = "php" progress = "30"></skill>
                             <skill name = "Node.js" progress = "30"></skill>
                         </div>
@@ -283,7 +289,7 @@
                         <h2>Работа с графикой</h2>
                         <div class="line"></div>
                         <div class="skills">
-                            <skill name = "Photoshop" progress = "70"></skill>
+                            <skill name = "photoshop" progress = "70"></skill>
                             <skill name = "xd" progress = "70"></skill>
                             <skill name = "avocode" progress = "80"></skill>
                         </div>
@@ -313,7 +319,10 @@
                             </div>
                             <div class="portfolio_works" id="container">
                                 <div class="work mix HTML wordpress php javascript jquery">
-                                    <img src="img/img/portfolio/prim.png" srcset="img/img/portfolio/prim.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/prim.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/prim.png" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <a href="https://github.com/coolswood/primirenie_new" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
                                     <a href="https://primirenie.ru/" target="_blank" class="">
                                         <div class="cover"></div>
@@ -331,7 +340,10 @@
                                     </a>
                                 </div>
                                 <div class="work mix HTML javascript node react">
-                                    <img src="img/img/portfolio/kaliaev.jpg" srcset="img/img/portfolio/kaliaev.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/kaliaev.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/kaliaev.jpg" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <a href="https://www.fursk.ru" target="_blank" class="">
                                         <div class="cover"></div>
                                         <div class="work_text">
@@ -346,7 +358,10 @@
                                     </a>
                                 </div>
                                 <div class="work mix HTML javascript node react">
-                                    <img src="img/img/portfolio/kaliaev.jpg" srcset="img/img/portfolio/kaliaev.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/kaliaev.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/kaliaev.jpg" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <a href="https://www.fursk.ru/zhenshchinam/shuby" target="_blank" class="">
                                         <div class="cover"></div>
                                         <div class="work_text">
@@ -362,7 +377,10 @@
                                     </a>
                                 </div>
                                 <div class="work mix HTML javascript node react">
-                                    <img src="img/img/portfolio/kaliaev.jpg" srcset="img/img/portfolio/kaliaev.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/kaliaev.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/kaliaev.jpg" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <a href="https://www.fursk.ru/zhenshchinam/shuby/art0916114" target="_blank" class="">
                                         <div class="cover"></div>
                                         <div class="work_text">
@@ -378,7 +396,10 @@
                                     </a>
                                 </div>
                                 <div class="work mix HTML javascript node react">
-                                    <img src="img/img/portfolio/kaliaev.jpg" srcset="img/img/portfolio/kaliaev.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/kaliaev.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/kaliaev.jpg" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <a href="https://life.fursk.ru" target="_blank" class="">
                                         <div class="cover"></div>
                                         <div class="work_text">
@@ -394,7 +415,10 @@
                                     </a>
                                 </div>
                                 <div class="work mix javascript vue">
-                                    <img src="img/img/portfolio/quiz-vue.png" srcset="img/img/portfolio/quiz-vue.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/quiz-vue.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/quiz-vue.png" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <a href="https://github.com/coolswood/quiz-vue" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
                                     <a href="http://lifes-ru.1gb.ru" target="_blank" class="">
                                         <div class="cover"></div>
@@ -409,7 +433,10 @@
                                     </a>
                                 </div>
                                 <div class="work mix javascript react">
-                                    <img src="img/img/portfolio/map.png" srcset="img/img/portfolio/map.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/map.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/map.png" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <a href="https://github.com/coolswood/map-marker" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
                                     <a href="https://coolswood.github.io/map/" target="_blank" class="">
                                         <div class="cover"></div>
@@ -424,7 +451,10 @@
                                     </a>
                                 </div>
                                 <div class="work mix HTML jquery">
-                                    <img src="img/img/portfolio/people_pasta.png" srcset="img/img/portfolio/people_pasta.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/people_pasta.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/people_pasta.png" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <a href="https://github.com/coolswood/People-pasta" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
                                     <a href="http://www.people-pasta.ru/" target="_blank" class="">
                                         <div class="cover"></div>
@@ -439,7 +469,10 @@
                                     </a>
                                 </div>
                                 <div class="work mix JavaScript react">
-                                    <img src="img/img/portfolio/todo.jpg" srcset="img/img/portfolio/todo.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/todo.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/todo.jpg" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <a href="https://github.com/coolswood/weather" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
                                     <a href="https://coolswood.github.io/todo-list/" target="_blank" class="">
                                         <div class="cover"></div>
@@ -454,7 +487,10 @@
                                     </a>
                                 </div>
                                 <a href="https://coolswood.github.io/zenit/" target="_blank" class="work mix HTML jquery">
-                                    <img src="img/img/portfolio/zenit.jpg" srcset="img/img/portfolio/zenit.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/zenit.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/zenit.jpg" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <div class="cover"></div>
                                     <div class="work_text">
                                         <h4>Зенит</h4>
@@ -466,7 +502,10 @@
                                     </div>
                                 </a>
                                 <a href="https://coolswood.github.io/astral_new/white-top/news/" target="_blank" class="work mix HTML jquery bootstrap">
-                                    <img src="img/img/portfolio/astral.jpg" srcset="img/img/portfolio/astral.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/astral.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/astral.jpg" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <div class="cover"></div>
                                     <div class="work_text">
                                         <h4>Astral Новости</h4>
@@ -478,7 +517,10 @@
                                     </div>
                                 </a>
                                 <a href="https://coolswood.github.io/astral_new/white-top/question-answer/" target="_blank" class="work mix HTML jquery bootstrap">
-                                    <img src="img/img/portfolio/astral.jpg" srcset="img/img/portfolio/astral.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/astral.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/astral.jpg" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <div class="cover"></div>
                                     <div class="work_text">
                                         <h4>Astral online</h4>
@@ -490,7 +532,10 @@
                                     </div>
                                 </a>
                                 <a href="https://coolswood.github.io/astral_new/white-top/shops-ins/" target="_blank" class="work mix HTML jquery bootstrap">
-                                    <img src="img/img/portfolio/astral.jpg" srcset="img/img/portfolio/astral.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/astral.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/astral.jpg" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <div class="cover"></div>
                                     <div class="work_text">
                                         <h4>Astral Карточка товара</h4>
@@ -502,7 +547,10 @@
                                     </div>
                                 </a>
                                 <div class="work mix HTML">
-                                    <img src="img/img/portfolio/acrostia.png" srcset="img/img/portfolio/acrostia.webp" class="portfolio_works__img" alt="work">
+                                    <picture>
+                                        <source srcset="img/img/portfolio/acrostia.webp"  type="image/webp">
+                                        <img src="img/img/portfolio/acrostia.png" class="portfolio_works__img" alt="work">
+                                    </picture>
                                     <a href="https://github.com/coolswood/acrostia" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
                                     <a href="https://coolswood.github.io/acrostia/" target="_blank" class="">
                                         <div class="cover"></div>
