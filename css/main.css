@@ -1446,7 +1446,7 @@ input[type=text]:focus {
         }
         .portfolio_works {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             grid-gap: 25px;
             margin-top: 30px;
         }
@@ -1643,7 +1643,6 @@ input[type=text]:focus {
                 -webkit-box-align: center;
                 -ms-flex-align: center;
                 align-items: center;
-                margin-left: 10px;
             }
             .about_wrap .about_brif {
                 -webkit-box-pack: start;
