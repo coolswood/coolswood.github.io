@@ -20,7 +20,7 @@
                 props: ['name', 'img', 'progress', 'color'],
                 template: `
                 <div class="skill">
-                    <img :src="'./img/img/skill/' + name + '.png'" :alt="name">
+                    <img :src="'img/img/skill/' + name + '.png'" :srcset="'img/img/skill/' + name + '.webp'" :alt="name">
                     <h3>{{ name }}</h3>
                     <div class="progress">
                         <div class="loading-bar">
@@ -95,7 +95,7 @@
                     <div class="line"></div>
                     <div class="about_wrap">
                         <div class="img-and-cont">
-                            <img src="img/img/jV5Z766kh8g.jpg" alt="dan">
+                            <img src="img/img/jV5Z766kh8g.jpg" srcset="img/img/jV5Z766kh8g.webp" alt="dan">
                             <div class="contact">
                                 <div class="main-card">
                                     <section>
@@ -236,7 +236,7 @@
                         <h2>Основные технологии</h2>
                         <div class="line"></div>
                         <div class="skills">
-                            <skill name = "HTML & CSS" progress = "90"></skill>
+                            <skill name = "HTML&CSS" progress = "90"></skill>
                             <skill name = "JavaScript" progress = "60"></skill>
                             <skill name = "php" progress = "30"></skill>
                             <skill name = "Node.js" progress = "30"></skill>
@@ -245,8 +245,8 @@
                         <div class="line"></div>
                         <div class="skills">
                             <skill name = "jquery" progress = "70"></skill>
-                            <skill name = "React & Redux" progress = "80"></skill>
-                            <skill name = "React Native" progress = "20"></skill>
+                            <skill name = "React&Redux" progress = "80"></skill>
+                            <skill name = "React_Native" progress = "20"></skill>
                             <skill name = "vue" progress = "30"></skill>
                         </div>
                         <h2>Базы данных</h2>
@@ -283,7 +283,7 @@
                         <h2>Работа с графикой</h2>
                         <div class="line"></div>
                         <div class="skills">
-                            <skill name = "photoshop" progress = "70"></skill>
+                            <skill name = "Photoshop" progress = "70"></skill>
                             <skill name = "xd" progress = "70"></skill>
                             <skill name = "avocode" progress = "80"></skill>
                         </div>
@@ -312,7 +312,8 @@
                                 <button class="filter_item" data-filter=".php">php (<span class="count"></span>)</button>
                             </div>
                             <div class="portfolio_works" id="container">
-                                <div class="work mix HTML wordpress php javascript jquery work_prim">
+                                <div class="work mix HTML wordpress php javascript jquery">
+                                    <img src="img/img/portfolio/prim.png" srcset="img/img/portfolio/prim.webp" class="portfolio_works__img" alt="work">
                                     <a href="https://github.com/coolswood/primirenie_new" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
                                     <a href="https://primirenie.ru/" target="_blank" class="">
                                         <div class="cover"></div>
@@ -329,8 +330,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="work mix HTML javascript node react work_kaliaev_life">
-                                    <a href="https://www.fursk.ru" target="_blank" class="github"></a>
+                                <div class="work mix HTML javascript node react">
+                                    <img src="img/img/portfolio/kaliaev.jpg" srcset="img/img/portfolio/kaliaev.webp" class="portfolio_works__img" alt="work">
                                     <a href="https://www.fursk.ru" target="_blank" class="">
                                         <div class="cover"></div>
                                         <div class="work_text">
@@ -344,8 +345,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="work mix HTML javascript node react work_kaliaev_life">
-                                    <a href="https://www.fursk.ru/zhenshchinam/shuby" target="_blank" class="github"></a>
+                                <div class="work mix HTML javascript node react">
+                                    <img src="img/img/portfolio/kaliaev.jpg" srcset="img/img/portfolio/kaliaev.webp" class="portfolio_works__img" alt="work">
                                     <a href="https://www.fursk.ru/zhenshchinam/shuby" target="_blank" class="">
                                         <div class="cover"></div>
                                         <div class="work_text">
@@ -360,8 +361,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="work mix HTML javascript node react work_kaliaev_life">
-                                    <a href="https://www.fursk.ru/zhenshchinam/shuby/art0916114" target="_blank" class="github"></a>
+                                <div class="work mix HTML javascript node react">
+                                    <img src="img/img/portfolio/kaliaev.jpg" srcset="img/img/portfolio/kaliaev.webp" class="portfolio_works__img" alt="work">
                                     <a href="https://www.fursk.ru/zhenshchinam/shuby/art0916114" target="_blank" class="">
                                         <div class="cover"></div>
                                         <div class="work_text">
@@ -376,8 +377,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="work mix HTML javascript node react work_kaliaev_life">
-                                    <a href="https://life.fursk.ru" target="_blank" class="github"></a>
+                                <div class="work mix HTML javascript node react">
+                                    <img src="img/img/portfolio/kaliaev.jpg" srcset="img/img/portfolio/kaliaev.webp" class="portfolio_works__img" alt="work">
                                     <a href="https://life.fursk.ru" target="_blank" class="">
                                         <div class="cover"></div>
                                         <div class="work_text">
@@ -392,7 +393,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="work mix javascript vue work_quiz_vue">
+                                <div class="work mix javascript vue">
+                                    <img src="img/img/portfolio/quiz-vue.png" srcset="img/img/portfolio/quiz-vue.webp" class="portfolio_works__img" alt="work">
                                     <a href="https://github.com/coolswood/quiz-vue" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
                                     <a href="http://lifes-ru.1gb.ru" target="_blank" class="">
                                         <div class="cover"></div>
@@ -406,7 +408,8 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="work mix javascript react work_map">
+                                <div class="work mix javascript react">
+                                    <img src="img/img/portfolio/map.png" srcset="img/img/portfolio/map.webp" class="portfolio_works__img" alt="work">
                                     <a href="https://github.com/coolswood/map-marker" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
                                     <a href="https://coolswood.github.io/map/" target="_blank" class="">
                                         <div class="cover"></div>
@@ -420,170 +423,151 @@
                                         </div>
                                     </a>
                                 </div>
-                                <!-- <a href="https://self-education.online/youtube/адам-портит-все/" target="_blank" class="work mix HTML wordpress javascript work_self">
-                                <div class="cover"></div>
-                                <div class="work_text">
-                                <h4>Self-education.online</h4>
-                                <span>Мой сервис по просмотру видео с субтитрами и мгновенным переводом. Находится еще в разработке.</span>
-                                <div class="technology">
-                                <div class="technology_item html">HTML</div>
-                                <div class="technology_item wordpress">wordpress</div>
-                                <div class="technology_item javascript">javascript</div>
+                                <div class="work mix HTML jquery">
+                                    <img src="img/img/portfolio/people_pasta.png" srcset="img/img/portfolio/people_pasta.webp" class="portfolio_works__img" alt="work">
+                                    <a href="https://github.com/coolswood/People-pasta" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
+                                    <a href="http://www.people-pasta.ru/" target="_blank" class="">
+                                        <div class="cover"></div>
+                                        <div class="work_text">
+                                            <h4>People&pasta</h4>
+                                            <span>Небольшой лендинг кафе. Использовался эффект параллакс.</span>
+                                            <div class="technology">
+                                                <div class="technology_item html">HTML</div>
+                                                <div class="technology_item jquery">jquery</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="work mix JavaScript react">
+                                    <img src="img/img/portfolio/todo.jpg" srcset="img/img/portfolio/todo.webp" class="portfolio_works__img" alt="work">
+                                    <a href="https://github.com/coolswood/weather" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
+                                    <a href="https://coolswood.github.io/todo-list/" target="_blank" class="">
+                                        <div class="cover"></div>
+                                        <div class="work_text">
+                                            <h4>Список задач</h4>
+                                            <span>Реализация на React списка задач с возможностью сортировки по срочности задачи и анимации появления/удаления.</span>
+                                            <div class="technology">
+                                                <div class="technology_item javascript">javascript</div>
+                                                <div class="technology_item react">react</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <a href="https://coolswood.github.io/zenit/" target="_blank" class="work mix HTML jquery">
+                                    <img src="img/img/portfolio/zenit.jpg" srcset="img/img/portfolio/zenit.webp" class="portfolio_works__img" alt="work">
+                                    <div class="cover"></div>
+                                    <div class="work_text">
+                                        <h4>Зенит</h4>
+                                        <span>Лендинг для банка Зенит</span>
+                                        <div class="technology">
+                                            <div class="technology_item html">HTML</div>
+                                            <div class="technology_item jquery">jquery</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="https://coolswood.github.io/astral_new/white-top/news/" target="_blank" class="work mix HTML jquery bootstrap">
+                                    <img src="img/img/portfolio/astral.jpg" srcset="img/img/portfolio/astral.webp" class="portfolio_works__img" alt="work">
+                                    <div class="cover"></div>
+                                    <div class="work_text">
+                                        <h4>Astral Новости</h4>
+                                        <div class="technology">
+                                            <div class="technology_item html">HTML</div>
+                                            <div class="technology_item jquery">jquery</div>
+                                            <div class="technology_item bootstrap">bootstrap</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="https://coolswood.github.io/astral_new/white-top/question-answer/" target="_blank" class="work mix HTML jquery bootstrap">
+                                    <img src="img/img/portfolio/astral.jpg" srcset="img/img/portfolio/astral.webp" class="portfolio_works__img" alt="work">
+                                    <div class="cover"></div>
+                                    <div class="work_text">
+                                        <h4>Astral online</h4>
+                                        <div class="technology">
+                                            <div class="technology_item html">HTML</div>
+                                            <div class="technology_item jquery">jquery</div>
+                                            <div class="technology_item bootstrap">bootstrap</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="https://coolswood.github.io/astral_new/white-top/shops-ins/" target="_blank" class="work mix HTML jquery bootstrap">
+                                    <img src="img/img/portfolio/astral.jpg" srcset="img/img/portfolio/astral.webp" class="portfolio_works__img" alt="work">
+                                    <div class="cover"></div>
+                                    <div class="work_text">
+                                        <h4>Astral Карточка товара</h4>
+                                        <div class="technology">
+                                            <div class="technology_item html">HTML</div>
+                                            <div class="technology_item jquery">jquery</div>
+                                            <div class="technology_item bootstrap">bootstrap</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="work mix HTML">
+                                    <img src="img/img/portfolio/acrostia.png" srcset="img/img/portfolio/acrostia.webp" class="portfolio_works__img" alt="work">
+                                    <a href="https://github.com/coolswood/acrostia" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
+                                    <a href="https://coolswood.github.io/acrostia/" target="_blank" class="">
+                                        <div class="cover"></div>
+                                        <div class="work_text">
+                                            <h4>Acrostia</h4>
+                                            <div class="technology">
+                                                <div class="technology_item html">HTML</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </a> -->
-                    <!-- <div class="work mix javascript react work_weather">
-                    <a href="https://github.com/coolswood/weather" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
-                    <a href="http://lifes-ru.1gb.ru/weather/" target="_blank" class="">
-                    <div class="cover"></div>
-                    <div class="work_text">
-                    <h4>Weather</h4>
-                    <span>Автоматическое определение геолокации и вывод прогноза погоды.</span>
-                    <div class="technology">
-                    <div class="technology_item javascript">javascript</div>
-                    <div class="technology_item react">react</div>
-                </div>
+                    </div>
+                </main>
             </div>
-        </a>
-    </div> -->
-    <div class="work mix HTML jquery work_pasta">
-        <a href="https://github.com/coolswood/People-pasta" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
-        <a href="http://www.people-pasta.ru/" target="_blank" class="">
-            <div class="cover"></div>
-            <div class="work_text">
-                <h4>People&pasta</h4>
-                <span>Небольшой лендинг кафе. Использовался эффект параллакс.</span>
-                <div class="technology">
-                    <div class="technology_item html">HTML</div>
-                    <div class="technology_item jquery">jquery</div>
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="work mix JavaScript react work_check">
-        <a href="https://github.com/coolswood/weather" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
-        <a href="https://coolswood.github.io/todo-list/" target="_blank" class="">
-            <div class="cover"></div>
-            <div class="work_text">
-                <h4>Список задач</h4>
-                <span>Реализация на React списка задач с возможностью сортировки по срочности задачи и анимации появления/удаления.</span>
-                <div class="technology">
-                    <div class="technology_item javascript">javascript</div>
-                    <div class="technology_item react">react</div>
-                </div>
-            </div>
-        </a>
-    </div>
-    <a href="https://coolswood.github.io/zenit/" target="_blank" class="work mix HTML jquery work_zenit">
-        <div class="cover"></div>
-        <div class="work_text">
-            <h4>Зенит</h4>
-            <span>Лендинг для банка Зенит</span>
-            <div class="technology">
-                <div class="technology_item html">HTML</div>
-                <div class="technology_item jquery">jquery</div>
-            </div>
-        </div>
-    </a>
-    <a href="https://coolswood.github.io/astral_new/white-top/news/" target="_blank" class="work mix HTML jquery bootstrap work_news">
-        <div class="cover"></div>
-        <div class="work_text">
-            <h4>Astral Новости</h4>
-            <div class="technology">
-                <div class="technology_item html">HTML</div>
-                <div class="technology_item jquery">jquery</div>
-                <div class="technology_item bootstrap">bootstrap</div>
-            </div>
-        </div>
-    </a>
-    <a href="https://coolswood.github.io/astral_new/white-top/question-answer/" target="_blank" class="work mix HTML jquery bootstrap work_online">
-        <div class="cover"></div>
-        <div class="work_text">
-            <h4>Astral online</h4>
-            <div class="technology">
-                <div class="technology_item html">HTML</div>
-                <div class="technology_item jquery">jquery</div>
-                <div class="technology_item bootstrap">bootstrap</div>
-            </div>
-        </div>
-    </a>
-    <a href="https://coolswood.github.io/astral_new/white-top/shops-ins/" target="_blank" class="work mix HTML jquery bootstrap work_shop">
-        <div class="cover"></div>
-        <div class="work_text">
-            <h4>Astral Карточка товара</h4>
-            <div class="technology">
-                <div class="technology_item html">HTML</div>
-                <div class="technology_item jquery">jquery</div>
-                <div class="technology_item bootstrap">bootstrap</div>
-            </div>
-        </div>
-    </a>
-    <div class="work mix HTML work_acrostia">
-        <a href="https://github.com/coolswood/acrostia" target="_blank" class="github"><img src="img/img/skill/github.png" alt="hub"></a>
-        <a href="https://coolswood.github.io/acrostia/" target="_blank" class="">
-            <div class="cover"></div>
-            <div class="work_text">
-                <h4>Acrostia</h4>
-                <div class="technology">
-                    <div class="technology_item html">HTML</div>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-</div>
-</div>
-</main>
-</div>
 
-<div class="letter"></div>
-<div id="wrap">
-    <div id='form_wrap'>
-        <form action="https://formspree.io/coolswood@yandex.ru"
-        method="POST">
-        <label for="email">Ваше сообщение : </label>
-        <textarea  name="message" value="Your Message" id="message" ></textarea>
-        <label for="name">Имя: </label>
-        <input type="text" name="name" value="" id="name" />
-        <label for="email">Email: </label>
-        <input type="text" name="email" value="" id="email" />
-        <input type="submit" name ="submit" value="Отправить" />
-    </form>
-</div>
-</div>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter48184841 = new Ya.Metrika({
-                    id:48184841,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
+            <div class="letter"></div>
+            <div id="wrap">
+                <div id='form_wrap'>
+                    <form action="https://formspree.io/coolswood@yandex.ru"
+                    method="POST">
+                    <label for="email">Ваше сообщение : </label>
+                    <textarea  name="message" value="Your Message" id="message" ></textarea>
+                    <label for="name">Имя: </label>
+                    <input type="text" name="name" value="" id="name" />
+                    <label for="email">Email: </label>
+                    <input type="text" name="email" value="" id="email" />
+                    <input type="submit" name ="submit" value="Отправить" />
+                </form>
+            </div>
+        </div>
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter48184841 = new Ya.Metrika({
+                            id:48184841,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true,
+                            webvisor:true
+                        });
+                    } catch(e) { }
                 });
-            } catch(e) { }
-        });
 
-        var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
+                var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/48184841" style="position:absolute; left:-9999px;" alt="pic" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-<script type="text/javascript" src="js/main.js"></script></body>
-<script type="text/javascript">
-    new Vue({
-        el: '#skill'
-    })
-</script>
-</html>
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/48184841" style="position:absolute; left:-9999px;" alt="pic" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        <script type="text/javascript" src="js/main.js"></script></body>
+        <script type="text/javascript">
+            new Vue({
+                el: '#skill'
+            })
+        </script>
+        </html>

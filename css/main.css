@@ -1132,199 +1132,6 @@ input[type=text]:focus {
         ol li {
             color: #5a5a5a;
         }
-        .wrapper {
-            max-width: 1400px;
-            margin: 9.375rem auto;
-            text-align: center;
-        }
-        aside {
-            width: 160px;
-            height: 94vh;
-            margin-top: 60px;
-            background: #372db4;
-            position: fixed;
-            top: 0;
-            left: 0;
-            -webkit-box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-            z-index: 2;
-        }
-        .cd-intro-content {
-            margin-left: 260px;
-        }
-        .burger {
-            height: 60px;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 160px;
-            background: #372db4;
-            cursor: pointer;
-            z-index: 2;
-        }
-        .burger i {
-            color: #fff;
-            font-size: 1.25rem;
-        }
-        .avatar {
-            height: 140px;
-            background: #fff;
-            position: relative;
-            z-index: 11;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-        }
-        .avatar .ava {
-            background: url(../img/img/vL1ng-ojrIc.jpg);
-            width: 120px;
-            height: 120px;
-            background-size: cover;
-        }
-        .name {
-            height: 40px;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            background: #fff;
-            font-family: 'Lora', serif;
-            font-size: 1rem;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        .nav_item {
-            width: 100%;
-            height: 100px;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            border-bottom: 1px solid #493fc8;
-        }
-        .nav_item:hover, .nav_item:focus {
-            background-color: #493fc8;
-        }
-        .nav_item:hover i, .nav_item:focus i {
-            color: #fff;
-        }
-        .nav_item:hover span, .nav_item:focus span {
-            color: #fff;
-        }
-        .nav_item span {
-            color: rgba(255,255,255,0.65);
-            font-family: 'Ubuntu', sans-serif;
-            font-size: 0.875rem;
-            letter-spacing: 0.06875rem;
-            font-weight: 400;
-            line-height: 2.1875rem;
-            text-transform: uppercase;
-        }
-        .nav_item i {
-            font-size: 1.5625rem;
-            color: rgba(255,255,255,0.65);
-        }
-        main {
-            width: 100%;
-        }
-        .main {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            min-width: calc(100% - 160px);
-            height: 100vh;
-            background: url(../img/img/1.jpg);
-            background-size: cover;
-        }
-        .main_text {
-            display: -ms-flex;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-        }
-        .main_text h1 {
-            opacity: 0.2 !important;
-            color: #35373e;
-            font-family: 'Ubuntu', sans-serif;
-            font-weight: 400;
-            line-height: 15.175rem;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            color: #fff;
-            font-size: 5.625rem;
-        }
-        @media (min-width:480px) and (max-width:1280px) {
-            .main_text h1 {
-                font-size: calc(5.625rem + (200 - 90) * ( (100vw - 30rem) / ( 1280 - 480)));
-            }
-        }
-        .main_text span {
-            color: #35373e;
-            font-family: 'Lora', serif;
-            font-weight: 700;
-            line-height: 3.3rem;
-            text-transform: uppercase;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            color: #fff;
-            text-shadow: 1px 1px #372db4, 1px -1px #372db4, -1px 1px #372db4, -1px -1px #372db4, 3px 3px 6px rgba(0,0,0,0.5);
-            font-size: 1.5625rem;
-        }
-        @media (min-width:480px) {
-            .main_text span {
-                font-size: 3.125rem;
-            }
-        }
-        @media (min-width:480px) and (max-width:1280px) {
-            .main_text span {
-                font-size: calc(1.5625rem + (50 - 25) * ( (100vw - 30rem) / ( 1280 - 480)));
-            }
-        }
         .social {
             width: 100%;
             display: -ms-flex;
@@ -1446,9 +1253,17 @@ input[type=text]:focus {
         }
         .portfolio_works {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             grid-gap: 25px;
             margin-top: 30px;
+        }
+        .portfolio_works__img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         .work {
             height: 360px;
@@ -1477,6 +1292,7 @@ input[type=text]:focus {
         }
         .work:hover .cover, .work:focus .cover {
             background: rgba(0,0,0,0.6);
+            position: absolute;
         }
         .work:hover h4, .work:focus h4 {
             background: none;
@@ -1567,48 +1383,9 @@ input[type=text]:focus {
         .vue {
             background: #5ec295;
         }
-        .work_map {
-            background: url(../img/img/portfolio/map.png) center;
-        }
-        .work_prim {
-            background: url(../img/img/portfolio/prim.png) center;
-        }
-        .work_self {
-            background: url(../img/img/portfolio/self.png) center;
-        }
-        .work_weather {
-            background: url(../img/img/portfolio/weather.jpg) center;
-        }
-        .work_pasta {
-            background: url(../img/img/portfolio/people_pasta.png) center;
-        }
-        .work_check {
-            background: url(../img/img/portfolio/todo.jpg) center;
-        }
-        .work_zenit {
-            background: url(../img/img/portfolio/zenit.jpg) center;
-        }
-        .work_news {
-            background: url(../img/img/portfolio/astral.jpg) center;
-        }
-        .work_online {
-            background: url(../img/img/portfolio/astral.jpg) center;
-        }
-        .work_shop {
-            background: url(../img/img/portfolio/astral.jpg) center;
-        }
-        .work_acrostia {
-            background: url(../img/img/portfolio/acrostia.png) center;
-        }
-        .work_quiz_vue {
-            background: url(../img/img/portfolio/quiz-vue.png) center;
-        }
-        .work_kaliaev_life {
-            background: url(../img/img/portfolio/kaliaev.jpg) center;
-        }
         .skills {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             grid-gap: 25px;
             margin-bottom: 70px;
             margin-top: 50px;
