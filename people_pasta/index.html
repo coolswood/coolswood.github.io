@@ -80,9 +80,9 @@
          <li>Высушенная паста имеет многообразие форм, чтобы соответствовать различным видам соусов. Тонкая и длинная паста подходит для более жидких соусов на основе оливкового масла. А более сложные формы – для густых и плотных соусов.</li>
          <li>Современное слово «макароны» (‘macaroni’) происходит от сицилийского термина взбивания теста с использованием грубой силы. В те времена тесто для пасты взбивалось посредством ходьбы по нему в течение длительного времени.</li>
          <li>Итальянские ярые любители пасты организовали Всемирную Паста Конференцию в 1995г. Они отмечают День пасты каждый год в Октябре, начиная с 1998г. Также существуют Итальянская Ассоциация Пасты и Музей Пасты в Риме.</li>
-         
+
       </ul>
-      
+
    </div>
    </header>
    <div class="section_1 section parallax-window_1">
@@ -103,9 +103,9 @@
 себя настоящим кулинаром и долгожданным гостем
 в одном лице. Мы вдохновились атмосферной
 итальянского бистро и создали свои паста-бары.
-         <b><a href="#test-popup" class="more open-popup-link">Подробнее...</a></b>                                                                    
+         <b><a href="#test-popup" class="more open-popup-link">Подробнее...</a></b>
          </div>
-         
+
          <div id="test-popup" class="white-popup mfp-hide">
               <p>Пипл&Паста – это сеть паста-баров прямо из самого сердца Италии. Итальянцы обожают
 неформальные заведения, где можно почувствовать себя настоящим кулинаром и
@@ -128,7 +128,7 @@
         <br>
         <p>Недавно на Маросейке открылось третье по счету заведение сети Пиппл & Паста. Первые два расположились на Цветном бульваре и Дербенёвской набережной в бизнес-центре «Новоспасский»</p>
          </div>
-         
+
       </div>
    </div>
    <div class="section_2 section parallax-window_2">
@@ -153,15 +153,15 @@
             <div class="menu__left-side">
                <h3 class="white_h3" id="men">Наше меню</h3><img src="img/shape.png" alt="shape" class="gold" />
                <div class="white_line__text">Первый ресторан Пипл&Паста открылся 17 мая 2014 года на Цветном бульваре, на месте популярного в 90е годы кафе "Александрия". Кафе, ресторан, бар, закусочная? Нет! Просто Паста Бар - формат, изобретенный не нами, но при этом в Москве, мягко говоря, не распространенный.
-               
+
                <b><a href="#our-nenu" class="more open-popup-link">Подробнее...</a></b>
-               
+
                <div id="our-nenu" class="white-popup mfp-hide">
-               
-               
-               
+
+
+
                </div>
-               
+
                </div>
             </div>
             <div class="menu__right-side">
@@ -229,7 +229,7 @@
          </div>
       </div>
    </div>
-   
+
    <script src="js/jquery-3.1.1.min.js"></script>
    <script src="js/OwlCarousel2-2.2.0/owl.carousel.min.js">
    </script>
@@ -237,11 +237,9 @@
    </script>
    <script src="js/parallax.min.js">
    </script>
-   <script src="js/cssRefrach.js">
-   </script>
    <script>
       $('.owl-carousel').owlCarousel({
-         loop: true, 
+         loop: true,
          margin: 10,
          dots: true
          , responsive: {
@@ -253,7 +251,7 @@
             }
             , 700: {
                items: 3
-            }, 
+            },
             1000: {
                items: 4
             }
@@ -262,7 +260,7 @@
             }
          }
       });
-      
+
       $('.parallax-window_1').parallax({
          imageSrc: 'img/Slides/slide_1-min.jpg'
       });
@@ -282,20 +280,20 @@
             }
          });
       });
-      
+
         $(document).ready(function() {
-    $("a.ancLinks").click(function () { 
+    $("a.ancLinks").click(function () {
       var elementClick = $(this).attr("href");
       var destination = $(elementClick).offset().top - 80;
       $('html,body').animate( { scrollTop: destination }, 1100 );
-       
+
        if($(window).width() < 600){
-          
+
           $('.header-site').css('display', 'none');
-          
+
        }
-       
-      
+
+
     });
   });
 
@@ -305,7 +303,7 @@
       $(".close").click(function(){
          $('.header-site').css('display', 'none');
       });
-      
+
       $('.open-popup-link').magnificPopup({
   type:'inline',
   midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
