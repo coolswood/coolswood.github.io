@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0644013e-07e6-4680-bb55-84eda89bbb63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/primirenie/1f8311510da5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2010/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2010/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2010/fonts/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2010/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2010/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2010/images/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2010/js/jquery-1.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2010/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2010/mix/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2010/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2011/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2011/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2011/fonts/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2011/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2011/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2011/images/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2011/js/jquery-1.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2011/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2011/mix/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2011/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2012/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2012/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2012/fonts/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2012/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2012/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2012/images/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2012/js/jquery-1.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2012/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2012/mix/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2012/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2013/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2013/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2013/fonts/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2013/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2013/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2013/images/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2013/js/jquery-1.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2013/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2013/mix/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2013/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2014/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2014/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2014/fonts/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2014/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2014/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2014/images/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2014/js/jquery-1.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2014/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2014/mix/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2014/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/fonts/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/images/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/js/jquery-1.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/mix/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/mix/111.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/mix/1111.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2015/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2016/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2016/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2016/fonts/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2016/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2016/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2016/images/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2016/js/jquery-1.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2016/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2016/mix/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2016/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2017/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2017/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2017/fonts/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2017/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2017/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2017/images/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2017/js/jquery-1.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2017/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2017/mix/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/2017/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Book_of_Revelation/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Book_of_Revelation/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Gifts_of_the_Holy_Spirit/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Gifts_of_the_Holy_Spirit/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/History_of_the_Church/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/History_of_the_Church/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Mind_games/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Mind_games/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Relationships_in_the_Bible/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Relationships_in_the_Bible/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Sermon_on_the_Mount/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Sermon_on_the_Mount/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Ten_Commandments/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/Ten_Commandments/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/The_Epistle_to_the_Romans/js/myplaylist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/The_Epistle_to_the_Romans/propoved_new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/Instructions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/album-cover-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/album-cover-highlight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/buy-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/description-more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/player-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/player-elapsed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/player-next-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/player-next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/player-pause-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/player-pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/player-play-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/player-play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/player-previous-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/player-previous.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/player-progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/rating-bar-on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/rating-bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/rating-off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/rating-on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/tracklist-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/tracklist-item-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/images/tracklist-more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/jquery-jplayer/Jplayer.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/jquery-jplayer/jquery.jplayer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/ttw-music-player-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Propoved_pleer/plugin/ttw-music-player.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/Sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/css/eventCalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/css/eventCalendar_theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/css/eventCalendar_theme_responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/css/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/css/jquery.custom-scroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/css/paragridma.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/css/plagins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/css/style (2).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/Helvetica-Neue-Cyr.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-Black.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-BlackItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-BoldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-Italic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-LightItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-Roman.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-Thin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-ThinItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-UltraLightItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/HelveticaNeueCyr-UltraLight_0.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/Внимание!.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/fonts/Шрифт Helvetica Neue Cyr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/New-Religious-Wallpaper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/bg-home-page.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/bitmap-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/composite-path.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/contacts/summer/1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/contacts/summer/10.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/contacts/summer/2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/contacts/summer/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/contacts/summer/4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/contacts/summer/5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/contacts/summer/6.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/contacts/summer/7.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/contacts/summer/8.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/contacts/summer/9.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/cross-grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/gallery/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/gallery/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/gallery/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/gallery/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/gallery/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/gallery/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/gold-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/header-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/img/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/ins/bitmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/inside/header-prop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/inside/prop-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/logo-ins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/logocopywhitenyellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/money/pojertv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/news/bitmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/news/sunday.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/our-charch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/our-church/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/our-church/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/our-church/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/our-church/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/boris.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/boris.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/eduard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/eduard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/ivan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/ivan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/mary.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/mary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/pavel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/pavel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/sveta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/pastors/sveta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/propoved/header-prop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/propoved/ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/propoved/prop-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/propoved/prop-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/slugenia/Bible_study_300x270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/slugenia/Children_300x270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/slugenia/Food_300x270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/slugenia/Media_300x270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/slugenia/Music_300x270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/slugenia/Pray_300x270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/slugenia/Technic_2_300x270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/slugenia/Youth_300x270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/sprite/cross-grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/sprite/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/sprite/gold-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/sprite/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/img/two-lines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/js/cssRefrach.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/js/jquery.custom-scroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/js/jquery.eventCalendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/js/jquery.eventCalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/js/moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/js/plagins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/js/vk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/propoved.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/primirenie/robots.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="419" />
+    <option name="y" value="57" />
+    <option name="width" value="1440" />
+    <option name="height" value="817" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0644013e-07e6-4680-bb55-84eda89bbb63" name="Default Changelist" comment="" />
+      <created>1550263065237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550263065237</updated>
+      <workItem from="1550263066339" duration="72000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="72000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
