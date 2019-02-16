@@ -13,6 +13,25 @@
     </style>
 </head>
     <body>
+
+        <template id="skill">
+            <picture>
+                <source srcset="img/img/skill/ name .webp" type="image/webp">
+                <img src="img/img/skill/ name .png" alt="name">
+            </picture>
+            <h3></h3>
+            <div class="progress">
+                <div class="loading-bar">
+                    <div class="amount" style="">
+                        <div class="loaded">
+
+                        </div>
+                        <div class="lines"></div>
+                    </div>
+                </div>
+            </div>
+        </template>
+
         <div class="burger">
             <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
@@ -30,7 +49,7 @@
                     <i class="fa fa-user" aria-hidden="true"></i>
                     <span>Обо мне</span>
                 </a>
-                <a href="#skill" class="nav_item">
+                <a href="#skill-p" class="nav_item">
                     <i class="fa fa-id-card-o" aria-hidden="true"></i>
                     <span>Мои навыки</span>
                 </a>
@@ -60,7 +79,6 @@
                 </div>
             </div>
         </section>
-
 
         <!-- About -->
         <div id="about" class="panel">
@@ -209,90 +227,64 @@
         </div>
             <!-- /About -->
 
-            <script src="js/vue.min.js"></script>
-            <script type="text/javascript">
-                Vue.component('skill', {
-                    props: ['name', 'img', 'progress', 'color'],
-                    template: `
-                    <div class="skill">
-                        <picture>
-                            <source :srcset="'img/img/skill/' + name + '.webp'" type="image/webp">
-                            <img :src="'img/img/skill/' + name + '.png'" :alt="name">
-                        </picture>
-                        <h3>{{ name }}</h3>
-                        <div class="progress">
-                            <div class="loading-bar">
-                                <div class="amount" :style="{width: progress + '%'}">
-                                    <div class="loaded">
-                                        {{ progress }}%
-                                    </div>
-                                    <div class="lines"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    `
-                })
-            </script>
-
             <!-- skill -->
-            <div id="skill" class="panel">
+            <div id="skill-p" class="panel">
 
                 <section class="about">
                     <div class="wrapper">
                         <h2>Основные технологии</h2>
                         <div class="line"></div>
                         <div class="skills">
-                            <skill name = "HTML&CSS" progress = "90"></skill>
-                            <skill name = "javascript" progress = "60"></skill>
-                            <skill name = "php" progress = "30"></skill>
-                            <skill name = "Node.js" progress = "30"></skill>
+                            <div class="skill html-skill"></div>
+                            <div class="skill javascript-skill"></div>
+                            <div class="skill php-skill"></div>
+                            <div class="skill node-skill"></div>
                         </div>
                         <h2>Библиотеки JS</h2>
                         <div class="line"></div>
                         <div class="skills">
-                            <skill name = "jquery" progress = "70"></skill>
-                            <skill name = "React&Redux" progress = "80"></skill>
-                            <skill name = "React_Native" progress = "20"></skill>
-                            <skill name = "vue" progress = "30"></skill>
+                            <div class="skill jquery-skill"></div>
+                            <div class="skill react-skill"></div>
+                            <div class="skill native-skill"></div>
+                            <div class="skill vue-skill"></div>
                         </div>
                         <h2>Базы данных</h2>
                         <div class="line"></div>
                         <div class="skills">
-                            <skill name = "mongodb" progress = "30"></skill>
+                            <div class="skill mongodb-skill"></div>
                         </div>
                         <h2>CMS</h2>
                         <div class="line"></div>
                         <div class="skills">
-                            <skill name = "wordpress" progress = "70"></skill>
-                            <skill name = "opencart" progress = "60"></skill>
-                            <skill name = "bitrix" progress = "40"></skill>
+                            <div class="skill wordpress-skill"></div>
+                            <div class="skill opencart-skill"></div>
+                            <div class="skill bitrix-skill"></div>
                         </div>
                         <h2>Cборщики проектов</h2>
                         <div class="line"></div>
                         <div class="skills">
-                            <skill name = "webpack" progress = "80"></skill>
-                            <skill name = "gulp" progress = "80"></skill>
+                            <div class="skill webpack-skill"></div>
+                            <div class="skill gulp-skill"></div>
                         </div>
                         <h2>Системы котроля версий</h2>
                         <div class="line"></div>
                         <div class="skills">
-                            <skill name = "git" progress = "50"></skill>
+                            <div class="skill git-skill"></div>
                         </div>
                         <h2>Препроцессоры</h2>
                         <div class="line"></div>
                         <div class="skills">
-                            <skill name = "stylus" progress = "80"></skill>
-                            <skill name = "less" progress = "80"></skill>
-                            <skill name = "sass" progress = "80"></skill>
-                            <skill name = "pug" progress = "70"></skill>
+                            <div class="skill stylus-skill"></div>
+                            <div class="skill less-skill"></div>
+                            <div class="skill sass-skill"></div>
+                            <div class="skill pug-skill"></div>
                         </div>
                         <h2>Работа с графикой</h2>
                         <div class="line"></div>
                         <div class="skills">
-                            <skill name = "photoshop" progress = "70"></skill>
-                            <skill name = "xd" progress = "70"></skill>
-                            <skill name = "avocode" progress = "80"></skill>
+                            <div class="skill photoshop-skill"></div>
+                            <div class="skill xd-skill"></div>
+                            <div class="skill avocode-skill"></div>
                         </div>
                     </div>
                 </section>
@@ -617,9 +609,4 @@
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript" src="js/js.js"></script>
     </body>
-        <script type="text/javascript">
-            new Vue({
-                el: '#skill'
-            })
-        </script>
-        </html>
+</html>
