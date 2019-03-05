@@ -110,31 +110,144 @@ const mySkills = [
         progress: 80
     }
 
+];
+
+const myProjects = [
+  {
+    img: 'prim',
+    ticets: {
+      github: 'https://github.com/coolswood/primirenie_new'
+    },
+    href: 'https://primirenie.ru/',
+    h4: 'Церковь примирение',
+    discr: 'Одна из моих первых работ. Данный сайт сверстан полностью с нуля и установлен на CMS Wordpress.',
+    technologies: ['HTML', 'wordpress', 'php', 'javascript', 'jquery']
+  },
+  {
+    img: 'kaliaev',
+    ticets: {
+      github: null
+    },
+    href: 'https://www.fursk.ru',
+    h4: 'Главная страница Каляев',
+    discr: '',
+    technologies: ['HTML', 'javascript', 'node', 'react']
+  },
+  {
+    img: 'kaliaev',
+    ticets: {
+      github: null
+    },
+    href: 'https://www.fursk.ru/zhenshchinam/shuby',
+    h4: 'Листинг карточек Каляев',
+    discr: 'Листинг карточек товаров с фильтрами.',
+    technologies: ['HTML', 'javascript', 'node', 'react']
+  },
+  {
+    img: 'kaliaev',
+    ticets: {
+      github: null
+    },
+    href: 'https://www.fursk.ru/zhenshchinam/shuby/art0916114',
+    h4: 'Карточка товара',
+    discr: 'Карточка товара с разветвленной логикой, попапы.',
+    technologies: ['HTML', 'javascript', 'node', 'react']
+  },
+  {
+    img: 'kaliaev',
+    ticets: {
+      github: null
+    },
+    href: 'https://life.fursk.ru',
+    h4: 'Раздел Каляев Life',
+    discr: 'Главная страница Life, страницы категорий, а также внутренние страницы.',
+    technologies: ['HTML', 'javascript', 'node', 'react']
+  },
+  {
+    img: 'quiz-vue',
+    ticets: {
+      github: 'https://github.com/coolswood/quiz-vue'
+    },
+    href: 'http://lifes-ru.1gb.ru',
+    h4: 'Викторина',
+    discr: 'Викторина на знание Библии на VUE',
+    technologies: ['javascript', 'vue']
+  },
+  {
+    img: 'map',
+    ticets: {
+      github: 'https://github.com/coolswood/map-marker'
+    },
+    href: 'https://coolswood.github.io/map/',
+    h4: 'Map',
+    discr: 'Яндекс карта на React с возможностью добавления меток, при нажатии скроллит к метке.',
+    technologies: ['javascript', 'react']
+  },
+  {
+    img: 'todo',
+    ticets: {
+      github: null
+    },
+    href: 'https://coolswood.github.io/todo-list/',
+    h4: 'Список задач',
+    discr: 'Реализация на React списка задач с возможностью сортировки по срочности задачи и анимации появления/удаления.',
+    technologies: ['javascript', 'react']
+  },
+  {
+    img: 'zenit',
+    ticets: {
+      github: null
+    },
+    href: 'https://coolswood.github.io/zenit/',
+    h4: 'Зенит',
+    discr: 'Лендинг для банка Зенит',
+    technologies: ['HTML', 'jquery']
+  },
+  {
+    img: 'astral',
+    ticets: {
+      github: null
+    },
+    href: 'https://coolswood.github.io/astral_new/white-top/news/',
+    h4: 'Astral Новости',
+    discr: '',
+    technologies: ['HTML', 'jquery', 'bootstrap']
+  },
+  {
+    img: 'astral',
+    ticets: {
+      github: null
+    },
+    href: 'https://coolswood.github.io/astral_new/white-top/shops-ins/',
+    h4: 'Astral Карточка товара',
+    discr: '',
+    technologies: ['HTML', 'jquery', 'bootstrap']
+  },
+  {
+    img: 'astral',
+    ticets: {
+      github: null
+    },
+    href: 'https://coolswood.github.io/astral_new/white-top/question-answer/',
+    h4: 'Astral online',
+    discr: '',
+    technologies: ['HTML', 'jquery', 'bootstrap']
+  },
+  {
+    img: 'acrostia',
+    ticets: {
+      github: 'https://github.com/coolswood/acrostia'
+    },
+    href: 'https://coolswood.github.io/acrostia/',
+    h4: 'Acrostia',
+    discr: '',
+    technologies: ['HTML']
+  },
 ]
-
-window.onload = function() {
-    let src = document.querySelectorAll('img[lazySrc]');
-
-    for(let i = 0; i < src.length; i++) {
-        let srcWay = src[i].getAttribute('lazySrc');
-        src[i].setAttribute('src', srcWay);
-        src[i].removeAttribute('lazySrc');
-    }
-
-    let srcset = document.querySelectorAll('source[lazySrcset]');
-
-
-    for(let i = 0; i < srcset.length; i++) {
-        let srcsetWay = srcset[i].getAttribute('lazySrcset');
-        srcset[i].setAttribute('srcset', srcsetWay);
-        srcset[i].removeAttribute('lazySrcset');
-    }
-
-}
 
 // Шаблон skill
 
-let skill = document.querySelector('#skill').content;
+const skill = document.querySelector('#skill').content;
 
 for(let i = 0; i < mySkills.length; i++) {
     let content = skill.cloneNode(true);
@@ -155,4 +268,75 @@ for(let i = 0; i < mySkills.length; i++) {
     content.querySelector('.loaded').innerText = progress + '%';
 
     document.querySelector('.' + id).appendChild(content)
+}
+
+// Шаблон project
+
+const project = document.querySelector('#project').content;
+const projectsContainer = document.querySelector('#container');
+
+for(let i = 0; i < myProjects.length; i++) {
+
+    let content = project.cloneNode(true);
+    let img = myProjects[i].img;
+    let ticets = myProjects[i].ticets;
+    let href = myProjects[i].href;
+    let h4 = myProjects[i].h4;
+    let discr = myProjects[i].discr;
+    let technologies = myProjects[i].technologies;
+
+    let projectClass = content.querySelector('.work');
+    projectClass.setAttribute('class', `${projectClass.getAttribute('class')} ${technologies.join(' ')}`)
+
+    let srcset = content.querySelector('source').getAttribute('lazySrcset').replace(' name ', img);
+    content.querySelector('source').setAttribute('lazySrcset', srcset);
+
+    let src = content.querySelector('img').getAttribute('lazySrc').replace(' name ', img);
+    content.querySelector('img').setAttribute('lazySrc', src);
+
+    let github = content.querySelector('.github');
+
+    if(ticets.github !== null) {
+      github.setAttribute('href', ticets.github)
+    } else {
+      github.parentNode.removeChild(github);
+    }
+
+    content.querySelector('.project-link').setAttribute('href', href);
+
+    content.querySelector('h4').innerText = h4;
+
+    content.querySelector('span').innerText = discr;
+
+    let projectTechnologies = content.querySelector('.technology');
+
+    for(let i = 0; i < technologies.length; i++) {
+
+      let element = document.createElement('div');
+      element.setAttribute('class', `technology_item ${technologies[i]}`);
+      element.innerText = technologies[i];
+      projectTechnologies.appendChild(element)
+    }
+
+    projectsContainer.appendChild(content)
+}
+
+window.onload = function() {
+    let src = document.querySelectorAll('img[lazySrc]');
+
+    for(let i = 0; i < src.length; i++) {
+        let srcWay = src[i].getAttribute('lazySrc');
+        src[i].setAttribute('src', srcWay);
+        src[i].removeAttribute('lazySrc');
+    }
+
+    let srcset = document.querySelectorAll('source[lazySrcset]');
+
+
+    for(let i = 0; i < srcset.length; i++) {
+        let srcsetWay = srcset[i].getAttribute('lazySrcset');
+        srcset[i].setAttribute('srcset', srcsetWay);
+        srcset[i].removeAttribute('lazySrcset');
+    }
+
 }
