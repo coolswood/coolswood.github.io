@@ -1489,6 +1489,10 @@ ol li {
     top: -40px !important;
 }
 
+.table-include-place {
+    overflow-x: auto;
+}
+
 .popap-wrap {
     position: absolute;
     width: 100%;
