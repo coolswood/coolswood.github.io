@@ -159,19 +159,9 @@ h2 {
     color: #555;
     font-size: 1.875rem;
     font-weight: 400;
-    font-family: "Raleway"
 }
 
-h6 {
-    font-family: Montserrat;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.75rem;
-    max-width: 750px;
-    margin: 1.5625rem auto
-}
-
-h6, span {
+span {
     color: #8c8c8c
 }
 
@@ -339,7 +329,6 @@ h6, span {
 
 .btn {
     display: block;
-    font-family: "Raleway";
     -webkit-box-shadow: inset 0 -3px 0 #736357;
     box-shadow: inset 0 -3px 0 #736357;
     border-radius: 3px;
@@ -387,140 +376,6 @@ nav .fa-bars {
         display: block;
         cursor: pointer
     }
-}
-
-#wrap, .letter {
-    position: fixed;
-    z-index: 1
-}
-
-#wrap {
-    top: 150%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    will-change: top
-}
-
-.letter {
-    width: 100%;
-    height: 100%;
-    background: rgba(18, 18, 20, .95);
-    display: none;
-    cursor: pointer
-}
-
-.error {
-    text-transform: initial;
-    color: red;
-    display: block;
-    margin-bottom: 5px
-}
-
-#message {
-    color: #7c7873
-}
-
-#form_wrap {
-    overflow: hidden;
-    height: 446px;
-    width: 530px;
-    position: relative;
-    top: 0;
-    -webkit-transition: all 1s ease-in-out .3s;
-    transition: all 1s ease-in-out .3s
-}
-
-#form_wrap:after, #form_wrap:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 530px
-}
-
-#form_wrap:before {
-    background: url(../img/images/before.png);
-    bottom: 128px;
-    height: 316px
-}
-
-#form_wrap:after {
-    bottom: 0;
-    background: url(../img/images/after.png);
-    height: 260px
-}
-
-#form_wrap.hide:after, #form_wrap.hide:before {
-    display: none
-}
-
-#form_wrap:focus, #form_wrap:hover {
-    height: 776px;
-    top: -200px
-}
-
-#form_wrap:focus form, #form_wrap:hover form {
-    height: 530px
-}
-
-label {
-    margin: .6875rem 1.25rem 0 0;
-    font-size: 1rem;
-    color: #b3aba1;
-    text-transform: uppercase;
-    text-shadow: 0 1px 0 #fff;
-    display: block
-}
-
-input[type=text], textarea {
-    font: .875rem uppercase helvetica, arial, serif;
-    color: #7c7873;
-    background: 0 0;
-    width: 380px;
-    height: 36px;
-    padding: 0 .625rem;
-    margin: 0 0 .625rem;
-    border: 1px solid #f8f5f1;
-    -webkit-box-shadow: inset 0 0 1px #b3a895;
-    box-shadow: inset 0 0 1px #b3a895
-}
-
-textarea {
-    height: 80px;
-    padding-top: 14px
-}
-
-input[type=text]:focus, textarea:focus {
-    background: rgba(255, 255, 255, .35);
-    outline: none
-}
-
-#form_wrap input[type=submit] {
-    position: relative;
-    font-family: 'YanoneKaffeesatzRegular';
-    font-size: 1.5rem;
-    color: #7c7873;
-    text-shadow: 0 1px 0 #fff;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    background: 0 0;
-    cursor: pointer;
-    border-radius: 3px;
-    -webkit-transition: opacity .6s ease-in-out 0s;
-    transition: opacity .6s ease-in-out 0s;
-    border: none
-}
-
-#form_wrap:focus input[type=submit], #form_wrap:hover input[type=submit] {
-    z-index: 1;
-    opacity: 1;
-    -webkit-transition: opacity .5s ease-in-out 1.3s;
-    transition: opacity .5s ease-in-out 1.3s
-}
-
-#form_wrap:focus input:focus[type=submit], #form_wrap:hover input:hover[type=submit] {
-    color: #435c70
 }
 
 .loading-container .loading-bar {
@@ -593,7 +448,6 @@ input[type=text]:focus, textarea:focus {
 }
 
 .loaded {
-    font-family: Helvetica, sans-serif;
     position: relative;
     top: 3px;
     font-size: 1.375rem;
