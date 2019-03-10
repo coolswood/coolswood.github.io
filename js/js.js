@@ -347,15 +347,18 @@ let popaper = document.querySelectorAll('.popaper');
 let popapWrap = document.querySelector('.popap-wrap');
 let popap = document.querySelector('.content-popap');
 let closeButton = document.querySelector('.close');
+let includePlace = document.querySelector('.table-include-place');
 
 for(let i = 0; i < popaper.length; i++) {
     popaper[i].onclick = () => {
-        fetch('/students/HTML&CSS_1.txt')
+        let fileName = popaper[i].getAttribute('data-file');
+
+        fetch(`https://coolswood.github.io/students/${fileName}.html`)
         .then(function (response) {
-            console.log(response)
+            return response.text()
         })
         .then(function (body) {
-            console.log(body);
+            includePlace.innerHTML = body;
         });
 
         popapWrap.classList.remove('hidden');
