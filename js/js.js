@@ -7,7 +7,7 @@ const mySkills = [
     {
         id: 'javascript-skill',
         name: 'javascript',
-        progress: 60
+        progress: 70
     },
     {
         id: 'php-skill',
@@ -17,7 +17,7 @@ const mySkills = [
     {
         id: 'node-skill',
         name: 'Node.js',
-        progress: 30
+        progress: 40
     },
     {
         id: 'jquery-skill',
@@ -27,7 +27,7 @@ const mySkills = [
     {
         id: 'react-skill',
         name: 'React&Redux',
-        progress: 80
+        progress: 90
     },
     {
         id: 'native-skill',
@@ -42,7 +42,7 @@ const mySkills = [
     {
         id: 'mongodb-skill',
         name: 'mongodb',
-        progress: 30
+        progress: 60
     },
     {
         id: 'wordpress-skill',
@@ -72,7 +72,7 @@ const mySkills = [
     {
         id: 'git-skill',
         name: 'git',
-        progress: 60
+        progress: 70
     },
     {
         id: 'stylus-skill',
@@ -242,7 +242,7 @@ const myProjects = [
     h4: 'Acrostia',
     discr: '',
     technologies: ['HTML']
-  },
+  }
 ]
 
 // Шаблон skill
@@ -340,3 +340,25 @@ window.onload = function() {
     }
 
 }
+
+// Попап
+
+let popaper = document.querySelectorAll('.popaper');
+let popapWrap = document.querySelector('.popap-wrap');
+let popap = document.querySelector('.content-popap');
+let closeButton = document.querySelector('.close');
+
+for(let i = 0; i < popaper.length; i++) {
+    popaper[i].onclick = () => {
+        popapWrap.classList.remove('hidden');
+        popap.classList.remove('hidden');
+    }
+}
+
+let closePopap = () => {
+    popapWrap.classList.add('hidden');
+    popap.classList.add('hidden');
+}
+
+popapWrap.addEventListener('click', closePopap);
+closeButton.addEventListener('click', closePopap);

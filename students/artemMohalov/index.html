@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <div class="logo">
+            <img src="img/nerds-logo.svg" width="160" height="65" alt=" Логотип студии NERD`S">
+          </div>
+          <div class="navigation-wrapper">
+            <ul class="site-navigation">
+              <li><a href="studio.html">Студия</a></li>
+              <li><a href="clients.html">Клиенты</a></li>
+              <li><a href="catalog.html">Магазин</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="user-navigation">
+              <li><a class="basket" href="#">Корзина</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+    </header>
+
+    <main class="main-content">
+      <h1 class="visually-hidden">Сайт дизайн-студии NERDS</h1>
+      <div class="slides">
+        <div class="container slides-wrapper">
+          <ul class="slides-switch">
+            <li class="slides-switch-case ">
+              <button class="slides-switch-button active-button" type="button"  onclick="sliderSwitchClickHandler(0)">Слайд №1</button>
+            </li>
+            <li class="slides-switch-case">
+              <button class="slides-switch-button" type="button"  onclick="sliderSwitchClickHandler(1)" >Слайд №2</button>
+            </li>
+            <li class="slides-switch-case ">
+              <button class="slides-switch-button" type="button"  onclick="sliderSwitchClickHandler(2)" >Слайд №3</button>
+            </li>
+          </ul>
+          <ul class="slides-list">
+            <li class="slides-list-item slide-mobilephone is-showed" id="slide--1" >
+              <div class="slide-wrapper">
+                <b>Долго, дорого,<br> скрупулезно.</b>
+                <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+                <a class="button" href="#">Узнать больше</a>
+              </div>
+            </li>
+            <li class="slides-list-item slide-monitor visually-hidden" id="slide--2" >
+              <div class="slide-wrapper">
+                <b>Любим математику как никто другой</b>
+                <p>Никакого креактива, только математические формулы для расчета идеальных пропорций</p>
+                <a class="button" href="#" tabindex="-1">Узнать больше</a>
+              </div>
+            </li>
+            <li class="slides-list-item slide-tablet visually-hidden" id="slide--3" >
+              <div class="slide-wrapper">
+                <b>Только ночь,<br> только хардкор</b>
+                <p>Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только начинается</p>
+                <a class="button" href="#" tabindex="-1">Узнать больше</a>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="container">
+        <section class="propositions">
+          <h2 class="visually-hidden">Комерческие предложения</h2>
+          <ul class="propositions-list">
+            <li class="propositions-list-item">
+              <img src="img/propositions-monitor.jpg" width="300" height="146" alt="Монитор">
+              <h3>Веб-сайты</h3>
+              <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+              <a class="button" href="catalog.html" >Заказать</a>
+            </li>
+            <li class="propositions-list-item">
+              <img src="img/propositions-mobile-phone.jpg" width="300" height="146" alt="Мобильный телефон">
+              <h3>Приложения</h3>
+              <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+              <a class="button button-green" href="catalog.html">Заказать</a>
+            </li>
+            <li class="propositions-list-item">
+              <img src="img/propositions-board.jpg" width="300" height="146" alt="Доска для презентации">
+              <h3>Презентации</h3>
+              <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+              <a class="button button-yellow" href="catalog.html">Заказать</a>
+            </li>
+          </ul>
+        </section>
+        <div class="horizontal-bar"></div>
+        <section class="about">
+          <div class="about-wrapper">
+            <b class="about-lead">Мы — маленькая, но гордая
+                дизайн-студия из Краснодара. </b>
+            <p>
+              Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+              превыше креатива. Работаем не покладая рук, как роботы.
+            </p>
+            <h2>Выполняем заказы на разработку:</h2>
+            <ul class="about-products-list">
+              <li class="about-products-item">
+                Веб-сайтов любой сложности
+              </li>
+              <li class="about-products-item">
+                Мобильные приложения для iOS и Android
+              </li>
+              <li class="about-products-item">
+                Слайдшоу и видео для корпоративных презентаций
+              </li>
+            </ul>
+          </div>
+          <div class="about-motto">
+            <table class="motto-table">
+              <tr class="motto-logo-row">
+                <td colspan="3">
+                  <img src="img/nerds-illustration.jpg" width="360" height="208" alt=" Логотип студии NERD`S">
+                </td>
+              </tr>
+              <tr class="motto-description-row">
+                <td colspan="3">
+                  <b>С 2004 года любим точность во всем:</b>
+                </td>
+              </tr>
+              <tr class="motto-percent-row">
+                <td><b>146<sup>%</sup></b></td>
+                <td><b>100<sup>%</sup></b></td>
+                <td><b>50<sup>%</sup></b></td>
+              </tr>
+              <tr class="motto-measure-row">
+                <td>Уровень самоотдачи</td>
+                <td>Соблюдение сроков</td>
+                <td>Минимальная предоплата</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <div class="horizontal-bar"></div>
+        <section class="partners">
+          <h2 class="visually-hidden">Наши партнеры</h2>
+          <ul class="partners-list">
+            <li class="partners-item partnert-separator">
+              <a href="https://htmlacademy.ru/intensive/htmlcss">
+                <img src="img/logo-html-academy.png" width="199" height="68" alt="HTML academy">
+              </a>
+            </li>
+            <li class="partners-item partnert-separator">
+              <a href="#">
+                <img src="img/logo-borodinski.png" width="209" height="90" alt="Barbershop BORODINSKI">
+              </a>
+            </li>
+            <li class="partners-item partnert-separator">
+              <a href="#">
+                <img src="img/logo-pink.png" width="185" height="52" alt="PINK">
+              </a>
+            </li>
+            <li class="partners-item">
+              <a href="#">
+                <img src="img/logo-mishka.png" width="173" height="84" alt="MISHKA">
+              </a>
+            </li>
+          </ul>
+        </section>
+        <div class="horizontal-bar"></div>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-contacts">
+        <div class="map-container" id="map"></div>
+        <div class="container">
+          <div class="address-box">
+            <b class="footer-studio-name">NЁRDS DESIGN STUDIO</b>
+            <p class="footer-studio-address">
+              191186, Санкт-Петербург,<br>
+              ул. Б. Конюшенная, д. 19/8
+            </p>
+            <p class="footer-studio-phone">
+              тел. +7 (812) 275-75-75
+            </p>
+            <a class="button" id="write-to-us-button" href="writetous.html">Напишите нам</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="social">
+          <ul class="social-buttons">
+            <li class="social-buttons-item social-vk"><a href="#">Вконтакте</a></li>
+            <li class="social-buttons-item social-fb"><a href="#">Фейсбук</a></li>
+            <li class="social-buttons-item social-insta"><a href="#">Инстаграм</a></li>
+          </ul>
+          <div class="social-invitation">
+            <b class="social-invitation-text">Давайте дружить, это выгодно!</b>
+            <p class="social-invitation-discount">Скидка 10% для друзей из социальных сетей</p>
+          </div>
+        </div>
+      </div>
+      <section class="write-to-us popap">
+        <h2>Напишите нам</h2>
+        <form class="write-to-us-form" method="POST" action="https://echo.htmlacademy.ru">
+          <div class="form-fields-set">
+            <div class="form-pair-wrapper">
+              <p class="form-field-wrapper">
+                <label for="field-name">Ваше имя:</label>
+                <input class="form-field" type="text" id="field-name" name="name" placeholder="Имя Фамилия">
+              </p>
+              <p class="form-field-wrapper">
+                <label for="field-email">Ваш e-mail:</label>
+                <input class="form-field" type="email" id="field-email" name="email" placeholder="email@example.com">
+              </p>
+            </div>
+            <p class="form-field-wrapper form-single-wrapper">
+              <label for="field-message">Текст письма:</label>
+              <textarea class="form-field" id="field-message" name="message" placeholder="В свободной форме"></textarea>
+            </p>
+          </div>
+          <button class="button" type="submit">Отправить</button>
+        </form>
+        <a class="close-form-button" href="index.html">Закрыть</a>
+      </section>
+    </footer>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=d2f669b1-7b5c-46b2-8a34-610f2bd8900a&lang=ru_RU"></script>
+    <script src="js/features.min.js"></script>
+  </body>
+</html>
+
+
