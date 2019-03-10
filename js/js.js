@@ -178,7 +178,7 @@ const myProjects = [
     ticets: {
       github: 'https://github.com/coolswood/map-marker'
     },
-    href: 'https://coolswood.github.io/map/',
+    href: 'https://coolswood.github.io/projects/map/',
     h4: 'Map',
     discr: 'Яндекс карта на React с возможностью добавления меток, при нажатии скроллит к метке.',
     technologies: ['javascript', 'react']
@@ -188,7 +188,7 @@ const myProjects = [
     ticets: {
       github: null
     },
-    href: 'https://coolswood.github.io/todo-list/',
+    href: 'https://coolswood.github.io/projects/todo-list/',
     h4: 'Список задач',
     discr: 'Реализация на React списка задач с возможностью сортировки по срочности задачи и анимации появления/удаления.',
     technologies: ['javascript', 'react']
@@ -198,7 +198,7 @@ const myProjects = [
     ticets: {
       github: null
     },
-    href: 'https://coolswood.github.io/zenit/',
+    href: 'https://coolswood.github.io/projects/zenit/',
     h4: 'Зенит',
     discr: 'Лендинг для банка Зенит',
     technologies: ['HTML', 'jquery']
@@ -208,7 +208,7 @@ const myProjects = [
     ticets: {
       github: null
     },
-    href: 'https://coolswood.github.io/astral_new/white-top/news/',
+    href: 'https://coolswood.github.io/projects/astral_new/white-top/news/',
     h4: 'Astral Новости',
     discr: '',
     technologies: ['HTML', 'jquery', 'bootstrap']
@@ -218,7 +218,7 @@ const myProjects = [
     ticets: {
       github: null
     },
-    href: 'https://coolswood.github.io/astral_new/white-top/shops-ins/',
+    href: 'https://coolswood.github.io/projects/astral_new/white-top/shops-ins/',
     h4: 'Astral Карточка товара',
     discr: '',
     technologies: ['HTML', 'jquery', 'bootstrap']
@@ -228,7 +228,7 @@ const myProjects = [
     ticets: {
       github: null
     },
-    href: 'https://coolswood.github.io/astral_new/white-top/question-answer/',
+    href: 'https://coolswood.github.io/projects/astral_new/white-top/question-answer/',
     h4: 'Astral online',
     discr: '',
     technologies: ['HTML', 'jquery', 'bootstrap']
@@ -238,7 +238,7 @@ const myProjects = [
     ticets: {
       github: 'https://github.com/coolswood/acrostia'
     },
-    href: 'https://coolswood.github.io/acrostia/',
+    href: 'https://coolswood.github.io/projects/acrostia/',
     h4: 'Acrostia',
     discr: '',
     technologies: ['HTML']
@@ -350,6 +350,14 @@ let closeButton = document.querySelector('.close');
 
 for(let i = 0; i < popaper.length; i++) {
     popaper[i].onclick = () => {
+        fetch('/students/HTML&CSS_1.txt')
+        .then(function (response) {
+            console.log(response)
+        })
+        .then(function (body) {
+            console.log(body);
+        });
+
         popapWrap.classList.remove('hidden');
         popap.classList.remove('hidden');
     }
