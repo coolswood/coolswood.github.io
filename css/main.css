@@ -1529,6 +1529,10 @@ ol li {
     display: none;
 }
 
+.hidden-aside {
+    display: none;
+}
+
 .simple-little-table {
 	color:#666;
     width: 100%;

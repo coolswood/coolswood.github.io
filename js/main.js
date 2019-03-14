@@ -4,9 +4,16 @@ a.callFilters("promiseQueueMix",i.promise,arguments)},getDataOperation:function(
 
 let burger = document.querySelector('.burger');
 let aside = document.querySelector('aside');
+let asideItem = document.querySelectorAll('.nav_item');
+
+for(let i = 0; i < asideItem.length; i++) {
+  asideItem[i].onclick = () => {
+    aside.classList.toggle('hidden-aside')
+  }
+}
 
 burger.onclick = () => {
-    aside.classList.toggle('hidden')
+    aside.classList.toggle('hidden-aside')
 }
 
 var mixer = mixitup('.portfolio').sort();
