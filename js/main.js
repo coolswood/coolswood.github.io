@@ -8,7 +8,9 @@ let asideItem = document.querySelectorAll('.nav_item');
 
 for(let i = 0; i < asideItem.length; i++) {
   asideItem[i].onclick = () => {
-    aside.classList.toggle('hidden-aside')
+      if(screen.width < 750) {
+          aside.classList.toggle('hidden-aside')
+      }
   }
 }
 
