@@ -118,6 +118,16 @@ const myProjects = [
     ticets: {
       github: 'https://github.com/coolswood/primirenie_new'
     },
+    href: 'https://coolswood.github.io/projects/error-jurnal',
+    h4: 'Церковь примирение',
+    discr: 'Одна из моих первых работ. Данный сайт сверстан полностью с нуля и установлен на CMS Wordpress.',
+    technologies: ['HTML', 'wordpress', 'php', 'javascript', 'jquery']
+  },
+  {
+    img: 'prim',
+    ticets: {
+      github: 'https://github.com/coolswood/primirenie_new'
+    },
     href: 'https://primirenie.ru/',
     h4: 'Церковь примирение',
     discr: 'Одна из моих первых работ. Данный сайт сверстан полностью с нуля и установлен на CMS Wordpress.',
