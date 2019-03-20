@@ -126,7 +126,7 @@ const myProjects = [
     },
     href: 'https://coolswood.github.io/projects/error-jurnal',
     h4: 'Журнал ошибок',
-    discr: '',
+    discr: 'Журнал',
     technologies: ['javascript', 'react', 'electron']
   },
   {
