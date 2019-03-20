@@ -428,6 +428,12 @@ nav .fa-bars {
     box-shadow: inset 0 4px 40px rgba(255, 255, 255, .2), 0 10px 10px -5px #372db4, 0 7px 0 #372db4
 }
 
+.skill:nth-child(5) .amount {
+    background-color: #7e2690;
+    -webkit-box-shadow: inset 0 4px 40px rgba(255, 255, 255, .2), 0 10px 10px -5px #7e2690, 0 7px 0 #7e2690;
+    box-shadow: inset 0 4px 40px rgba(255, 255, 255, .2), 0 10px 10px -5px #7e2690, 0 7px 0 #7e2690
+}
+
 .lines, .loaded {
     text-align: center;
     font-weight: 700
@@ -1439,6 +1445,10 @@ ol li {
 
 .vue {
     background: #5ec295
+}
+
+.electron {
+    background: #4f6e79
 }
 
 .skills {

@@ -40,6 +40,11 @@ const mySkills = [
         progress: 30
     },
     {
+        id: 'electron-skill',
+        name: 'electron',
+        progress: 40
+    },
+    {
         id: 'mongodb-skill',
         name: 'mongodb',
         progress: 60
