@@ -1314,13 +1314,19 @@ ol li {
     display: block
 }
 
-.work .github {
+.tikets-wrap {
     position: absolute;
     top: 10px;
     right: 10px;
     width: 45px;
     z-index: 1;
-    opacity: .7
+}
+
+.work .tiket {
+    width: 45px;
+    opacity: .7;
+    margin-bottom: 5px;
+    display: block;
 }
 
 .work .cover {
@@ -1343,7 +1349,7 @@ ol li {
     background: 0 0
 }
 
-.work:focus .github, .work:hover .github {
+.work .tiket:focus,  .work .tiket:hover {
     opacity: 1
 }
 

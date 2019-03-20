@@ -121,7 +121,8 @@ const myProjects = [
   {
     img: 'prim',
     ticets: {
-      github: 'https://github.com/coolswood/task-manager'
+      github: 'https://github.com/coolswood/task-manager',
+      windows: 'https://coolswood.github.io/projects/error-jurnal/task-manager.exe'
     },
     href: 'https://coolswood.github.io/projects/error-jurnal',
     h4: 'Журнал ошибок',
@@ -311,10 +312,18 @@ for(let i = 0; i < myProjects.length; i++) {
 
     let github = content.querySelector('.github');
 
-    if(ticets.github !== null) {
+    if(ticets.github) {
       github.setAttribute('href', ticets.github)
     } else {
       github.parentNode.removeChild(github);
+    }
+
+    let windows = content.querySelector('.windows');
+
+    if(ticets.windows) {
+      windows.setAttribute('href', ticets.windows)
+    } else {
+      windows.parentNode.removeChild(windows);
     }
 
     content.querySelector('.project-link').setAttribute('href', href);
