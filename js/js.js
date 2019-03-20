@@ -116,12 +116,12 @@ const myProjects = [
   {
     img: 'prim',
     ticets: {
-      github: 'https://github.com/coolswood/primirenie_new'
+      github: 'https://github.com/coolswood/task-manager'
     },
     href: 'https://coolswood.github.io/projects/error-jurnal',
-    h4: 'Церковь примирение',
-    discr: 'Одна из моих первых работ. Данный сайт сверстан полностью с нуля и установлен на CMS Wordpress.',
-    technologies: ['HTML', 'wordpress', 'php', 'javascript', 'jquery']
+    h4: 'Журнал ошибок',
+    discr: '',
+    technologies: ['javascript', 'react', 'electron']
   },
   {
     img: 'prim',
