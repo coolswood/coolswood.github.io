@@ -119,14 +119,14 @@ const mySkills = [
 
 const myProjects = [
   {
-    img: 'prim',
+    img: 'error',
     ticets: {
       github: 'https://github.com/coolswood/task-manager',
       windows: 'https://coolswood.github.io/projects/error-jurnal/task-manager.exe'
     },
     href: 'https://coolswood.github.io/projects/error-jurnal',
     h4: 'Журнал ошибок',
-    discr: 'Журнал',
+    discr: 'Программа-помощник для разработчика. Можно фиксировать ошибки, создавать чек листы. Данные хранятся в indexedDB, можно синхронизировать данные с Gists.',
     technologies: ['javascript', 'react', 'electron']
   },
   {
