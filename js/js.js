@@ -113,7 +113,12 @@ const mySkills = [
         id: 'avocode-skill',
         name: 'avocode',
         progress: 80
-    }
+    },
+    {
+        id: 'figma-skill',
+        name: 'figma',
+        progress: 80
+    },
 
 ];
 
