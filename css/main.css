@@ -1475,7 +1475,7 @@ ol li {
     flex-direction: column
 }
 
-.skills .skill img {
+.skills .skill .skill-img {
     height: 80px;
 }
 
@@ -1483,7 +1483,7 @@ ol li {
     cursor: pointer;
 }
 
-.skills .achievement img {
+.skills .achievement-img img {
     position: absolute;
     top: 0;
     left: 0;
@@ -1491,6 +1491,24 @@ ol li {
     width: 160px;
     will-change: top;
     transition: top 500ms ease-in;
+}
+
+.skills .npm-img svg {
+    width: 160px;
+}
+
+.npm-badges {
+    width: 90%;
+    height: 40px;
+    margin: 10px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.npm-badges > * {
+    display: block;
+    margin: 3px 5px;
 }
 
 .achievement-img {
