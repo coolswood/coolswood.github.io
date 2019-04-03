@@ -46,37 +46,37 @@
             <div class="avatar">
                 <div class="ava"></div>
             </div>
-            <div class="name">Сугоняев Даниил</div>
+            <div class="name" id="tr-name">Сугоняев Даниил</div>
             <nav>
                 <a href="#home" class="nav_item">
                     <svg width="25px" height="25px">
                         <use xlink:href='#home' />
                     </svg>
-                    <span>Главная</span>
+                    <span id="tr-main">Главная</span>
                 </a>
                 <a href="#about" class="nav_item">
                     <svg width="25px" height="25px">
                         <use xlink:href='#user' />
                     </svg>
-                    <span>Обо мне</span>
+                    <span id="tr-about">Обо мне</span>
                 </a>
                 <a href="#skill-p" class="nav_item">
                     <svg width="35px" height="30px">
                         <use xlink:href='#card' />
                     </svg>
-                    <span>Мои навыки</span>
+                    <span id="tr-skills">Мои навыки</span>
                 </a>
                 <a href="#portfolio" class="nav_item">
                     <svg width="30px" height="30px">
                         <use xlink:href='#bag' />
                     </svg>
-                    <span>Мои работы</span>
+                    <span id="tr-works">Мои работы</span>
                 </a>
                 <a href="#achievements" class="nav_item">
                     <svg width="35px" height="35px">
                         <use xlink:href='#priz' />
                     </svg>
-                    <span>Достижения</span>
+                    <span id="tr-ach">Достижения</span>
                 </a>
             </nav>
             <div class="social">
@@ -102,8 +102,8 @@
             <div class="cd-intro-content mask-2">
                 <div class="content-wrapper">
                     <div class="main_text">
-                        <h1>Привет</h1>
-                        <span>Меня зовут Даниил, я веб разработчик</span>
+                        <h1 id="tr-hi">Привет</h1>
+                        <span id="tr-my-name">Меня зовут Даниил, я веб разработчик</span>
                     </div>
                 </div>
             </div>
@@ -113,8 +113,8 @@
         <div id="about" class="panel">
             <section class="about">
                 <div class="wrapper">
-                    <h2>Обо мне</h2>
-                    <h3>Путь в тысячу миль начинается с первого шага</h3>
+                    <h2 id="tr-about-page">Обо мне</h2>
+                    <h3 id="tr-way">Путь в тысячу миль начинается с первого шага</h3>
                     <div class="line"></div>
                     <div class="about_wrap">
                         <div class="img-and-cont">
@@ -125,15 +125,15 @@
                                             <section>
                                                 <div class="content">
                                                     <div class="aside-card">
-                                                        <h1>Информация обо мне</h1>
-                                                    </div><button class="niz"><span style="cursor:pointer;">Мои аккаунты</span>
+                                                        <h1 id="tr-info">Информация обо мне</h1>
+                                                    </div><button class="niz"><span style="cursor:pointer;" id="tr-accounts">Мои аккаунты</span>
                                                         <svg width="48" height="48">
                                                             <use xlink:href='#down' />
                                                         </svg>
                                                     </button>
                                                 </div>
                                                 <div style="cursor:pointer;" class="title">
-                                                    <p>Написать мне</p>
+                                                    <p id="tr-write">Написать мне</p>
                                                 </div>
                                             </section>
                                         </div>
@@ -267,7 +267,7 @@
 
                 <section class="about">
                     <div class="wrapper">
-                        <h2>Основные технологии</h2>
+                        <h2 id="tr-main-tech">Основные технологии</h2>
                         <div class="line"></div>
                         <div class="skills">
                             <div class="skill html-skill"></div>
@@ -275,7 +275,7 @@
                             <div class="skill php-skill"></div>
                             <div class="skill node-skill"></div>
                         </div>
-                        <h2>Библиотеки JS</h2>
+                        <h2 id="tr-js-libs">Библиотеки JS</h2>
                         <div class="line"></div>
                         <div class="skills">
                             <div class="skill jquery-skill"></div>
@@ -284,7 +284,7 @@
                             <div class="skill vue-skill"></div>
                             <div class="skill electron-skill"></div>
                         </div>
-                        <h2>Базы данных</h2>
+                        <h2 id="tr-bd">Базы данных</h2>
                         <div class="line"></div>
                         <div class="skills">
                             <div class="skill mongodb-skill"></div>
@@ -296,13 +296,13 @@
                             <div class="skill opencart-skill"></div>
                             <div class="skill bitrix-skill"></div>
                         </div>
-                        <h2>Cборщики проектов</h2>
+                        <h2 id="tr-builders">Cборщики проектов</h2>
                         <div class="line"></div>
                         <div class="skills">
                             <div class="skill webpack-skill"></div>
                             <div class="skill gulp-skill"></div>
                         </div>
-                        <h2>Системы котроля версий</h2>
+                        <h2 id="tr-vers">Системы котроля версий</h2>
                         <div class="line"></div>
                         <div class="skills">
                             <div class="skill git-skill"></div>
@@ -397,6 +397,7 @@
 
         <link href="css/main.css" rel="stylesheet">
 
+        <script type="text/javascript" src="js/translate.js" rel="preload" as="script"></script>
         <script defer type="text/javascript" src="js/js.js"></script>
         <script defer type="text/javascript" src="js/main.js"></script>
 
