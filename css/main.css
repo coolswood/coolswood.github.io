@@ -1089,7 +1089,7 @@ nav .fa-bars {
     color: #24292e
 }
 
-.contact .nav-card a, .contact .nav-card a.twitter .icon, .social {
+.contact .nav-card a, .contact .nav-card a.twitter .icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex
@@ -1149,23 +1149,6 @@ nav .fa-bars {
 
 ol li {
     color: #5a5a5a
-}
-
-.social {
-    width: 100%;
-    display: -ms-flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 30px
-}
-
-.social svg {
-    fill: rgba(255, 255, 255, .65);
-}
-
-.social svg:focus, .social svg:hover {
-    fill: #fff
 }
 
 .about h2, .about_wrap span, .brif-item h5 {
