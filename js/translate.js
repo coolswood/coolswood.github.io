@@ -16,10 +16,19 @@ const en = [
     ["tr-js-libs", "JS libraries"],
     ["tr-bd", "Databases"],
     ["tr-builders", "Project builders"],
-    ["tr-vers", "Version control systems"]
+    ["tr-vers", "Version control systems"],
+    ["tr-prepr", "preprocessors"],
+    ["tr-design", "design"],
+    ["tr-projects", "My projects"],
+    ["tr-teacher", "teacher in HTML Academy"],
+    ["tr-npm", "NPM libraries"],
+    ["tr-html_1", "HTML & CSS, level 1"],
+    ["tr-students", "students"]
 ];
 
 if(document.location.search === '?en') {
+    document.title = "Sugonyaev Daniel's portfolio"
+
     en.map(item => {
         document.querySelector(`#${item[0]}`).innerHTML = item[1];
     })

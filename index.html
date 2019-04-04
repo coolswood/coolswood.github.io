@@ -76,7 +76,7 @@
                     <svg width="30px" height="30px">
                         <use xlink:href='#bag' />
                     </svg>
-                    <span id="tr-works">Мои работы</span>
+                    <span id="tr-works">Мои проекты</span>
                 </a>
                 <a href="#achievements" class="nav_item">
                     <svg width="35px" height="35px">
@@ -313,7 +313,7 @@
                         <div class="skills">
                             <div class="skill git-skill"></div>
                         </div>
-                        <h2>Препроцессоры</h2>
+                        <h2 id="tr-prepr">Препроцессоры</h2>
                         <div class="line"></div>
                         <div class="skills">
                             <div class="skill stylus-skill"></div>
@@ -321,7 +321,7 @@
                             <div class="skill sass-skill"></div>
                             <div class="skill pug-skill"></div>
                         </div>
-                        <h2>Работа с графикой</h2>
+                        <h2 id="tr-design">Работа с графикой</h2>
                         <div class="line"></div>
                         <div class="skills">
                             <div class="skill photoshop-skill"></div>
@@ -338,17 +338,17 @@
             <div id="achievements" class="panel">
                 <section class="about">
                     <div class="wrapper">
-                        <h2>Наставничество в HTML академии</h2>
+                        <h2 id="tr-teacher">Наставничество в HTML академии</h2>
                         <div class="line"></div>
                         <div class="achievements skills">
                             <div class="achievement skill popaper" data-file="HTML&CSS_1">
                                 <div class="achievement-img">
                                     <img src="img/img/teacher.svg" alt="teacher">
                                 </div>
-                                <h3>HTML и CSS, уровень 1</h3>
+                                <h3 id="tr-html_1">HTML и CSS, уровень 1</h3>
                             </div>
                         </div>
-                        <h2>NPM библиотеки</h2>
+                        <h2 id="tr-npm">NPM библиотеки</h2>
                         <div class="line"></div>
                         <div class="achievements skills npm">
                             <a href="https://www.npmjs.com/package/react-timer-simple" target="_blank" class="achievement skill">
@@ -374,11 +374,11 @@
             <div id="portfolio" class="panel">
                 <section class="about portfolios">
                     <div class="wrapper">
-                        <h2>Портфолио</h2>
+                        <h2 id="tr-projects">Мои проекты</h2>
                         <div class="line"></div>
                         <div class="portfolio">
                             <div class="portfolio-filter">
-                                <button class="filter_item mixitup-control-active" data-filter="all">Все работы (<span class="count"></span>)</button>
+                                <button class="filter_item mixitup-control-active" data-filter="all">All (<span class="count"></span>)</button>
                                 <button class="filter_item" data-filter=".HTML">
                                     HTML (<span class="count"></span>)
                                 </button>
@@ -403,7 +403,6 @@
 
         <link href="css/main.css" rel="stylesheet">
 
-        <script type="text/javascript" src="js/translate.js" rel="preload" as="script"></script>
         <script defer type="text/javascript" src="js/js.js"></script>
         <script defer type="text/javascript" src="js/main.js"></script>
 
@@ -422,7 +421,7 @@
                             <use xlink:href='#close' />
                         </svg>
                     </button>
-                    <h3>Студенты</h3>
+                    <h3 id="tr-students">Студенты</h3>
                     <div class="table-include-place">
                         <div id="cube-loader">
                             <div class="caption">
@@ -437,7 +436,8 @@
                     </div>
                 </div>
             </div>
-            <script src="js/outdatedbrowser/outdatedbrowser.min.js" charset="utf-8"></script>
+            <script type="text/javascript" src="js/translate.js" rel="preload" as="script"></script>
+            <script defer src="js/outdatedbrowser/outdatedbrowser.min.js" charset="utf-8"></script>
             <link rel="stylesheet" href="js/outdatedbrowser/outdatedbrowser.min.css">
             <script type="text/javascript">
             outdatedBrowser({
