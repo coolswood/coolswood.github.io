@@ -367,7 +367,6 @@ window.onload = function() {
         srcset[i].setAttribute('srcset', srcsetWay);
         srcset[i].removeAttribute('lazySrcset');
     }
-
 }
 
 // Попап

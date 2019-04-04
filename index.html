@@ -13,6 +13,12 @@
     </style>
 </head>
     <body>
+        <div id="outdated">
+            <h6>Ваш браузер устарел!</h6>
+            <p>Обновите ваш браузер для правильного отображения этого сайта. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/ru">Обновить мой браузер</a></p>
+            <p class="last"><button id="btnCloseUpdateBrowser" title="Закрыть" aria-label="Закрыть">&times;</button></p>
+        </div>
+
         <template id="skill"><picture><source class="skill-img" srcset="img/img/skill/ name .webp" type="image/webp"><img class="skill-img" src="img/img/skill/ name .png" alt="name"></picture><h3></h3><div class="progress"><div class="loading-bar"><div class="amount" style=""><div class="loaded"></div><div class="lines"></div></div></div></div></template>
 
 <template id="project">
@@ -431,5 +437,15 @@
                     </div>
                 </div>
             </div>
+            <script src="js/outdatedbrowser/outdatedbrowser.min.js" charset="utf-8"></script>
+            <link rel="stylesheet" href="js/outdatedbrowser/outdatedbrowser.min.css">
+            <script type="text/javascript">
+            outdatedBrowser({
+                bgColor: '#eb1717',
+                color: '#ffffff',
+                lowerThan: 'grid',
+                languagePath: ''
+            })
+            </script>
     </body>
 </html>
