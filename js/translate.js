@@ -12,6 +12,56 @@ let description = `
 <span>Actively exploring server-side JavaScript - node.js, working with mongodb database. In my portfolio you can see examples of projects where these technologies were used. Basically, it is the creation of API, reading/writing to the database, parsing information from third-party resources.</span>
 <span>There are also examples of desktop applications based on Electron created by me.</span>
 <span>I love and know how to optimize as a classic site – optimization of graphic images, drawing sprites, dynamic loading of content, the allocation of critical css and so on., and SPA applications – the correct configuration of the webpack configuration, import only used functions from the modules, the division of the configuration into bundles, etc.</span>
+`;
+
+let accordeon = `
+<section class="card accordeon">
+    <article>
+        <h1 data-accordion-element-trigger>«Otkritie broker»</h1>
+        <div data-accordion-element-content class="content">
+            <p>
+                <span>I was engaged in the development of the user's personal trading account. Personal account is a SPA application without SSR. I worked with a large project in conjunction with a professional team consisting of analysts, developers, testers, designers and all this within the framework of interaction with other teams. The project with a long history, respectively, had to face the support of a large number of legacy code. The specifics of the company forced to pay attention to the correctness of working with large amounts of data, data acquisition, transformation and output in various forms – the creation of tables, graphs. The following libraries were used to work with charts - d3.js, c3.js, Charts.</span>
+                <span>At the same time, we had to convert the dates. For these purposes, at a good level mastered the library – moment.js.</span>
+
+                <b>Technology:</b>
+                <span>HTML, CSS,  Stylus,  Webpack, git, React, Redux, Flux, node.js, moment.js, d3.js, c3.js, ECharts</span>
+            </p>
+
+        </div>
+    </article>
+    <article>
+        <h1 data-accordion-element-trigger>Clothing store "Kalyaev"</h1>
+        <div data-accordion-element-content class="content">
+            <p>
+                <spanInitially, I got a job working with a more experienced front-end developer under his supervision, but after a month and a half of our collaboration, he quit. Accordingly, after his dismissal, I became responsible for the entire front-end development of the company. The main task of the project is the gradual transfer of the site to React + various small third-party projects of the company. This place of work allowed me to gain experience of serious development and work in a short time.</span>
+                <b>Technology:</b>
+                <span>HTML, CSS,  SCSS,  Webpack,  Postcss, REACT, Redux, node.js</span>
+            </p>
+        </div>
+    </article>
+    <article>
+        <h1 data-accordion-element-trigger>«ASTRAL-М»</h1>
+        <div data-accordion-element-content class="content">
+            <p>
+                <span>My first job as a team. I was accepted as a layout designer, the vast majority of the work and concerned the layout, after a while I felt the need for further growth and began to delve into the study of programming. In this company I first tried to work with React, VUE applications.</span>
+                <b>Technology:</b>
+                <span>HTML, CSS,  Less,  GULP,  Postcss, Jquery, PHP, REACT, VUE, Redux, Webpack</span>
+            </p>
+        </div>
+    </article>
+    <article>
+        <h1 data-accordion-element-trigger>Web-studio MediaOnline</h1>
+        <div data-accordion-element-content class="content">
+            <p>
+                <span>I Was the only frontend specialist, mainly engaged in layout, sometimes I had to animate pages with plugins and my own code on jquery. During the work I used the build automation tool – gulp. Typeset using preprocessors. Including was the task of SEO support sites. SEO promotion was achieved with the help of semantic layout, reducing the weight of pages, optimization for mobile devices.</span>
+
+                <b>Technology:</b>
+
+                <span>HTML, CSS, Stylus, GULP, Postcss,  PUG, Jquery</span>
+            </p>
+        </div>
+    </article>
+</section>
 `
 
 const en = [
@@ -40,7 +90,8 @@ const en = [
     ["tr-npm", "NPM libraries"],
     ["tr-html_1", "HTML & CSS, level 1"],
     ["tr-students", "students"],
-    ["tr-description", description]
+    ["tr-description", description],
+    ["tr-accordeon", accordeon]
 ];
 
 if(document.location.search === '?en') {
