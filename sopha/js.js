@@ -24,6 +24,7 @@ $('.owl-carousel').owlCarousel({
 });
 
 $('.lightzoom').lightzoom({
+    speed: 400,
     isOverlayClickClosing: true,
     isEscClosing: true
 });
