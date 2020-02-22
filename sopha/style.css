@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya SC', serif;
+}
+
+section {
+    margin: 100px 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    height: 500px;
+    padding: 30px 70px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+main {
+    position: relative;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.blet {
+    margin-left: 60px;
+    width: 350px;
+}
+
+.girl {
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    width: 300px;
+}
+
+.about-me {
+    display: flex;
+}
+
+.about-me__img {
+    width: 450px;
+    display: block;
+    flex-shrink: 0;
+}
+
+.about-me__info {
+    margin-left: 20px;
+}
+
+.about-me__info p {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 6px 6px 0px rgba(50, 50, 50, 0.35);;
+    padding: 10px;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 10000000000000;
+}
+
+.menu-item {
+    margin: 0 20px;
+    text-align: center;
+    padding: 6px 20px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    width: 120px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: rgba(193, 196, 193, 0.7);
+}
+
+.works__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work {
+    width: 31% !important;
+    margin: 30px 0;
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 80px;
+    background: black;
+}
+
+.social-wrap {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    width: 40px;
+    fill: rgba(255,255,255,.65);
+    margin-right: 20px;
+}
+
+.social:hover {
+    fill: #fff;
+}
