@@ -208,14 +208,6 @@
     testimonial_slider();
 
     /*------------------------------
-    MagnificPopup Activation
-    -------------------------------- */
-    /* magnificPopup video view */
-    $('.expand-video').magnificPopup({
-        type: 'iframe'
-    });
-
-    /*------------------------------
     YTP activation
     -------------------------------- */
     $(window).on('load', function() {
