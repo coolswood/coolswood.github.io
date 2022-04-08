@@ -1830,7 +1830,7 @@ canvas.worms.sketch {
     }
 
     .slider-inner {
-        text-align: left
+        text-align: left;
     }
 
     .slider-inner h2 {
@@ -1992,10 +1992,6 @@ canvas.worms.sketch {
         padding: 114px 0 149px
     }
 
-    .slider-inner {
-        text-align: left
-    }
-
     .slider-inner h2 {
         font-size: 23px
     }
@@ -2138,5 +2134,16 @@ canvas.worms.sketch {
 
     #preloader {
         display: none !important
+    }
+}
+
+.slider-inner {
+    text-align: left;
+    margin-bottom: 250px;
+}
+
+@media only screen and (max-width: 992px) {
+    .slider-inner {
+        margin-bottom: 0px;
     }
 }
