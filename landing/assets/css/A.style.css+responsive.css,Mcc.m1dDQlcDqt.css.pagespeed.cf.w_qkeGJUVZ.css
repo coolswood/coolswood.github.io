@@ -226,7 +226,7 @@ button, input, textarea {
 .slider-inner {
 }
 
-.slider-inner h2 {
+.slider-inner h1 {
     font-size: 40px;
     font-weight: 500;
     color: #fff;
@@ -562,7 +562,8 @@ canvas.worms.sketch {
     border-radius: 10px;
     margin-top: 109px;
     padding: 0 8%;
-    padding-bottom: 24px
+    padding-bottom: 24px;
+    height: 300px;
 }
 
 .single-tst img {
