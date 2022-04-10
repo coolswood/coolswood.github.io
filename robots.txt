@@ -1,0 +1,1 @@
+Sitemap: https://coolswood.github.io/sitemap # указывает роботу на файл Sitemap для сайта
