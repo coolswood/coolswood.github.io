@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ожидание транзакции</title>
+</head>
+<body>
+<style>
+    html, body {
+        width: 100%;
+        height: 100%;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #progress {
+        overflow: visible;
+        width: 100px;
+        height: 150px;
+    }
+    #progress g {
+        animation: slide 2s linear infinite;
+    }
+    #progress g:nth-child(2) {
+        animation-delay: 0.5s;
+    }
+    #progress g:nth-child(2) path {
+        animation-delay: 0.5s;
+        stroke-dasharray: 0px 158px;
+        stroke-dashoffset: 1px;
+    }
+    #progress path {
+        stroke: url(#gradient);
+        stroke-width: 20px;
+        stroke-linecap: round;
+        fill: none;
+        stroke-dasharray: 0 157px;
+        stroke-dashoffset: 0;
+        animation: escalade 2s cubic-bezier(0.8, 0, 0.2, 1) infinite;
+    }
+    @keyframes slide {
+        0% {
+            transform: translateY(-50px);
+        }
+        100% {
+            transform: translateY(50px);
+        }
+    }
+    @keyframes escalade {
+        0% {
+            stroke-dasharray: 0 157px;
+            stroke-dashoffset: 0;
+        }
+        50% {
+            stroke-dasharray: 157px 157px;
+            stroke-dashoffset: 0;
+        }
+        100% {
+            stroke-dasharray: 157px 157px;
+            stroke-dashoffset: -156px;
+        }
+    }
+
+</style>
+<div style="display: flex; flex-direction: column; align-items: center">
+    <svg width="300"  id="yes" style="enable-background:new 0 0 612 792; display: none" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M50 140h512v512H50z"/></defs><clipPath id="b"><use style="overflow:visible" xlink:href="#a"/></clipPath><path d="M306 629.5c128.8 0 233.5-104.7 233.5-233.5S434.8 162.5 306 162.5 72.5 267.2 72.5 396 177.2 629.5 306 629.5z" style="clip-path:url(#b);fill:none;stroke:#41ad49;stroke-width:45"/><path style="fill:#41ad49" d="M421.4 271 241.9 450.5l-67-67-52.9 52.9 119.9 119.8 15.4-15.4h.1l216.9-216.9-52.9-52.9z"/></svg>
+    <svg id="progress">
+        <g>
+            <path d="M 50,100 A 1,1 0 0 1 50,0"/>
+        </g>
+        <g>
+            <path d="M 50,75 A 1,1 0 0 0 50,-25"/>
+        </g>
+        <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#FF56A1;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#FF9350;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+    </svg>
+    <div id="text" style="font-size: 40px; margin-top: 20px">Подождите, идет проверка платежа...</div>
+</div>
+<script>
+    const getQueryString = (name) => {
+        const reg = new RegExp(`(^|&)${name}=([^&]*)(&|$)`);
+        const r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return null;
+    };
+
+    var int = setInterval(() => {
+        var text = document.querySelector('#text');
+        text.innerHTML = 'Платеж получен! Можете вернуться в приложение!';
+
+        var yes = document.querySelector('#yes');
+        yes.style.display = 'block';
+
+        var progress = document.querySelector('#progress');
+        progress.style.display = 'none';
+
+        // fetch('http://localhost:3001/api/payment/yooCard/status', {
+        //     method: 'POST',
+        //     headers: {
+        //         'Content-Type': 'application/json'
+        //     },
+        //     body: JSON.stringify({
+        //         paymentId: getQueryString('transaction')
+        //     })
+        // })
+        //     .then(response => response.json())
+        //     .then(data => {
+        //         clearInterval(int);
+        //         console.log(data)
+        //     });
+    }, 2000);
+
+</script>
+</body>
+</html>
