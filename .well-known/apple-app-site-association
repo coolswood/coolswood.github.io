@@ -1,0 +1,11 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "SZ98FC4HLF.com.cbt.mindhealth",
+        "paths": ["/auth/email"]
+      }
+    ]
+  }
+}
