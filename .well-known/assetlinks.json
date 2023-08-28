@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.cbt.mindhealthy",
+      "sha256_cert_fingerprints":
+      ["93:19:98:B9:32:F1:59:A1:5D:BE:9D:1E:F4:E0:E6:72:47:C8:DF:5C:32:29:DE:0F:05:25:74:12:28:EA:E6:84"]
+    }
+  }]
